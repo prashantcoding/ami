@@ -4,6 +4,7 @@ import ami from "./ami.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Sidebar from "../../Component/Sidebar/index";
+import {FaHamburger} from 'react-icons/fa';
 
 const HomePage = (props) => {
   const [isOpen, setisOpen] = useState(false);
@@ -37,7 +38,8 @@ const HomePage = (props) => {
         <div className={styles.dig_line_two}></div>
         <div className={styles.signup}>SignUp</div>
         <div onClick={toggle} className={styles.ham}>
-          <i className="fa-solid fa-burger fa-3x"></i>
+         
+          <FaHamburger size={40}></FaHamburger>
         </div>
       </div>
       <div className={styles.box_main}>
