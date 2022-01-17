@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+.container {
+  height: 60vh;
+  width: 80vw;
+  position: relative;
+  left: 10%;
+  margin-top: 2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-content: center;
+  column-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.heading {
+    position: relative;
+    left: 15%;
+    top: 3rem;
+  color: #44ccb2;
+  font-size: 25px;
+  font-family: "Michroma", sans-serif;
+}
+.name {
+  color: #44ccb2;
+
+  padding-top: 1rem;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.football {
+  width: 122px;
+  height: auto;
+}
+.dance {
+  width: 150px;
+  height: auto;
+}
+.arts {
+  width: 180.09px;
+  height: auto;
+}
+.gamepad {
+  width: 182px;
+  height: auto;
+}
+.film {
+  width: 141px;
+  height: auto;
+}
+.coding {
+  width: 179px;
+  height: auto;
+}
+.debate {
+  width: 227px;
+  height: auto;
+}
+.photography {
+  position: relative;
+  left: 2rem;
+  width: 138.89px;
+  height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    transform: scale(0.7);
+    row-gap: 11px;
+    top: 80px;
+    justify-content: flex-end;
+    column-gap: 2rem;
+  }
+  .gamepad {
+    width: 150px;
+    height: auto;
+  }
+  .football {
+    width: 130px;
+    height: auto;
+  }
+  .dance {
+    width: 150px;
+    height: auto;
+  }
+  .arts {
+    width: 130px;
+    height: auto;
+  }
+
+  .film {
+    width: 130px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .coding {
+    width: 150px;
+    height: auto;
+  }
+  .debate {
+    width: 140px;
+    height: auto;
+  }
+  .photography {
+    width: 140px;
+    height: auto;
+  }
+  .heading {
+    position: relative;
+    left: 4rem;
+    top: 3rem;
+    font-size: x-large;
+  }
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display:grid;
+    background-color: black;
+    height: 100px;
+    grid-template-columns: 1.5fr .5fr  6fr 1fr 1fr;
+    grid-template-rows: 100px;
+    border:5px solid #44CCB2;
+    border-left: none;
+    border-right: none;
+}
+.logo{
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 0.8fr 1fr;
+    background-color: black;
+    
+    justify-content: start;
+    color:#44CCB2;
+    align-content: flex-start;
+    font-family: 'Anton', sans-serif;
+}
+.content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    background-color: black;
+    place-items: center;
+    column-gap: 10px;
+}
+
+img{
+    height: 80%;
+    width: auto;
+    
+}
+h1{
+    font-size: 25px;
+}
+.dig_line{
+    height: 132px;
+
+    width:0px;
+    top: -1.5rem;
+    transform: rotate(
+-34deg
+);
+    position:relative;
+    left:25px;
+    border:2px solid #00B894;
+   
+}
+.link{
+    color:#44CCB2;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+.dig_line_two{
+    height: 132px;
+
+    width:0px;
+    top: -1.5rem;
+    transform: rotate(
+34deg
+);
+    position:relative;
+    left:25px;
+    border:2px solid #00B894;
+    
+}
+.signup{
+    color:#44CCB2;
+    position: relative;
+    font-size: 30px;
+    display: grid;
+    place-items: center; 
+
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+.ham{
+    display:none;
+}
+@media only screen and (max-width: 900px) {
+    .nav{
+       grid-template-columns: 1fr 1fr;
+        justify-items:center ;
+        align-items: center;
+        
+    }
+    .content{
+        display: none;
+    }
+    .signup{
+        display: none;
+    }
+    .dig_line_two{
+        display:none;
+    }
+    .dig_line{
+        display:none;
+    }
+    .logo{
+        align-items: center;
+    }
+    .ham{
+        display: block;
+        color: #00B894;
+    }
+  }
