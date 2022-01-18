@@ -74,7 +74,7 @@
     top: 80px;
     justify-content: flex-end;
     column-gap: 2rem;
-    left: 23%;
+    
   }
   .gamepad {
     width: 150px;
@@ -115,5 +115,14 @@
     
     top: auto;
     font-size: x-large;
+  }
+}
+@media only screen and (max-width: 300px){
+  .heading{
+      font-size: 20px;
+      left:auto;
+  }
+  .container{
+      left:23%;
   }
 }
