@@ -13,11 +13,7 @@ const HomePage = (props) => {
   };
   return (
     <>
-      <div>
-        <video className={styles.videoTag} autoPlay loop muted >
-          <source src={sample} type="video/mp4" />
-        </video>
-      </div>
+     
       <div className={styles.nav}>
           <div className={styles.logo}>
             <img src={ami} />
