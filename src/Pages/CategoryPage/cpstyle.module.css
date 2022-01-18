@@ -25,7 +25,7 @@
 }
 .name {
   color: #44ccb2;
-
+  cursor:pointer;
   padding-top: 1rem;
   text-transform: uppercase;
   font-size: 30px;
@@ -74,6 +74,7 @@
     top: 80px;
     justify-content: flex-end;
     column-gap: 2rem;
+    left: 23%;
   }
   .gamepad {
     width: 150px;
@@ -111,8 +112,8 @@
   }
   .heading {
     position: relative;
-    left: 4rem;
-    top: 3rem;
+    
+    top: auto;
     font-size: x-large;
   }
 }

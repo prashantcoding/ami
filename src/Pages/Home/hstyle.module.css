@@ -6,6 +6,7 @@ body{
 }
 
 .nav{
+   
     display:grid;
     background-color: black;
     height: 100px;
@@ -118,7 +119,7 @@ h1{
     }
   }
 .box_main{
-    background:url(./bg.jpg);
+    
     position: fixed;
     background-position:center;
     width: 100vw;
@@ -165,7 +166,7 @@ h1{
     color:white; 
     position: relative;
     top: 37%;
-    font-size:4rem;
+    font-size:3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     cursor: pointer;
@@ -188,4 +189,11 @@ h1{
         width: 87vw;
         height: 20vh;
     }
+  }
+  .videoTag{
+    object-fit:contain;
+     position: fixed;
+      z-index: -10000;
+      
+      
   }
