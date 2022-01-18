@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./cpstyle.module.css";
+
+import {Link } from 'react-scroll';
 import {
   hacker,
   dance,
@@ -23,11 +25,13 @@ const CategoryPage = () => {
         transition={{ duration: 1 }}
       >
         <CategoryBar />
+        
         <span class={styles.heading}>#Chroma Events</span>
         <div className={styles.container}>
+          
           <div>
             <img src={gamepad} className={styles.gamepad} alt="gamepad"></img>
-            <center className={styles.name}>Esport</center>
+            <center> <Link className={styles.name} to="Games"> Esport</Link></center>
           </div>
           <div>
             <img
@@ -65,7 +69,9 @@ const CategoryPage = () => {
             <img src={film} className={styles.film} alt="arts"></img>
             <center className={styles.name}>Film Making</center>
           </div>
+          
         </div>
+        <section id="Games"></section>
       </motion.div>
       <Footer />
     </>

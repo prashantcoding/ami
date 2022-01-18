@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+    column-gap: 1rem;
+    place-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    
+}
+.event_box{
+    width: 300px;
+    height: 400px;
+    
+    display: grid;
+    grid-template-rows: 3fr  2fr;
+    grid-template-columns: 1fr;
+    place-items:center ;
+    border: 1px solid #515151;
+}
+.pubg{
+
+    width: 229px;
+    height: 237px;
+    position: relative;
+}
+.fifa{
+    width: 314px;
+    height: 209px;
+}
+.valo{
+
+}
+.cod{
+
+}
+.name{
+    color:#F6C214;
+    font-size: 62px;
+    font-family: 'Anton', sans-serif;
+}
+.options{
+   
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.button_register{
+    align-items: flex-start;
+    border-radius: 21px 21px 21px 21px;
+    padding: 10px 20px;
+    border:2px solid #F6C214;
+    background-color: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
