@@ -192,7 +192,7 @@ h1{
   }
   .videoTag{
     object-fit:contain;
-     position: fixed;
+     position: absolute;
       z-index: -10000;
       
       
