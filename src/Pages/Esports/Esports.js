@@ -6,9 +6,11 @@ import Link from "react-scroll/modules/components/Link";
 const Esports = () => {
   return (
     <>
-      <CategoryBar title={"Esports"} />
+       
         <section id="Games">
+       <CategoryBar title="Esport"></CategoryBar>
       <div className={styles.container}>
+           
         <div className={styles.event_box}>
           <img className={styles.pubg} src={pubg} alt="pubg"></img>
           <span className={styles.name}>BGMI</span>

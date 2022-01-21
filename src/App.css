@@ -1,15 +1,9 @@
 body{
   background-color: black;
-  overflow-x: hidden;
-  overflow-y:hidden;
+  overflow-x:auto;
+  overflow-y:auto;
 }
 
 h3{
   color: #00B894;
-}
-@media only screen and (max-width: 900px){
-  body{
-    overflow-y:scroll;
-    overflow-x: hidden;
-  }
 }

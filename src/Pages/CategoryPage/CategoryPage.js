@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./cpstyle.module.css";
 
-import {Link } from 'react-scroll';
+import {Link } from 'react-router-dom';
 import {
   hacker,
   dance,
@@ -15,6 +15,7 @@ import {
 import CategoryBar from "../../Component/CategoryBar";
 import Footer from "../../Component/Footer/Footer";
 import { motion } from "framer-motion";
+
 const CategoryPage = () => {
   return (
     <>
@@ -24,14 +25,14 @@ const CategoryPage = () => {
         exit={{ x: -400 }}
         transition={{ duration: 1 }}
       >
-        <CategoryBar />
+        <CategoryBar  title={"Competition Categories"}/>
         
         <span class={styles.heading}>#Chroma Events</span>
         <div className={styles.container}>
           
           <div>
             <img src={gamepad} className={styles.gamepad} alt="gamepad"></img>
-            <center> <Link className={styles.name} to="Games"> Esport</Link></center>
+            <center> <Link className={styles.name} to="./esport" smooth > Esport</Link></center>
           </div>
           <div>
             <img
@@ -71,9 +72,9 @@ const CategoryPage = () => {
           </div>
           
         </div>
-        <section id="Games"></section>
+        
       </motion.div>
-      <Footer />
+     <Footer></Footer>
     </>
   );
 };

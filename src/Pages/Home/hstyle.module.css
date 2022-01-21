@@ -124,7 +124,7 @@ h1{
     background-position:center;
     width: 100vw;
     display: grid;
-    height: 90vh;
+    height: 80vh;
     
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;

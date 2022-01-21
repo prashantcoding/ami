@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .container{
     display: grid;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    height: 100vh;
+    /* height: 50vh; */
     grid-template-columns: .5fr .5fr .5fr .5fr;
+    grid-column-gap: 1rem;
     column-gap: 1rem;
     place-items: center;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    
+    overflow-y: auto;
+    overflow-x: auto;
+    position: relative;
+    top: 5rem;
+    transform: scale(0.7);
+    width: 100vw;
 }
+
 .event_box{
     width: 300px;
     height: 400px;
@@ -61,4 +66,12 @@
     color: whitesmoke;
     cursor: pointer;
     
+}
+.title{
+    color:#F6C214;
+    font-size: 124px;
+     font-family: 'Anton', sans-serif;
+     letter-spacing: 0.25rem;
+     position: relative;
+     left:10%;
 }
