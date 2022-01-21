@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Sidebar from "../../Component/Sidebar/index";
 import { FaHamburger } from "react-icons/fa";
 import sample from './bg7.mp4';
+import Login from "../../Auth/Login";
 const HomePage = (props) => {
   const [isOpen, setisOpen] = useState(false);
   const toggle = () => {
@@ -31,7 +32,7 @@ const HomePage = (props) => {
             <span className={styles.link}>About us </span>
           </div>
           <div className={styles.dig_line_two}></div>
-          <div className={styles.signup}>SignUp</div>
+          <div className={styles.signup}><Login/></div>
           <div onClick={toggle} className={styles.ham}>
             <FaHamburger size={40}></FaHamburger>
           </div>
@@ -49,7 +50,7 @@ const HomePage = (props) => {
             <center className={styles.slogan}>Memories</center>
           </div>
           <div className={styles.box_events}>
-            <center span className={styles.slogan}>
+            <center className={styles.slogan}>
               Events
             </center>
           </div>

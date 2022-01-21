@@ -85,6 +85,28 @@ const Esports = () => {
             </button>
           </div>
         </div>
+        <div className={styles.event_box}>
+          <img className={styles.pubg} src={cod} alt="pubg"></img>
+          <span className={styles.name} style={{ color: "#99A1AB" }}>
+            COD MOBILE
+          </span>
+          <div className={styles.options}>
+            <button
+              className={styles.button_register}
+              style={{ "border-color": "#99A1AB" }}
+            >
+              Register
+            </button>
+
+            <button
+              className={styles.button_register}
+              style={{ "border-color": "#99A1AB" }}
+            >
+              <Link to="/know_more">Know More</Link>
+            </button>
+          </div>
+        </div>
+          
       </div>
       </section>
     </>
