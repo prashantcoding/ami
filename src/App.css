@@ -7,7 +7,7 @@ body{
 h3{
   color: #00B894;
 }
-* ===== Scrollbar CSS ===== */
+/* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
     scrollbar-width: auto;
