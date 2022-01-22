@@ -60,3 +60,11 @@
 .poster_img:hover{
     transform: scale(1.3);
 }
+.button_register{
+    border-radius: 21px 21px 21px 21px;
+    padding: 10px 20px;
+    border:transparent;
+    background-color: #2A9FD6;
+    margin:2px;
+    text-decoration: none;
+}

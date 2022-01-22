@@ -1,8 +1,9 @@
 import {combineReducers} from "redux";
-import reducer from "./navReducer";
-
+import reducer from "./priceReducer";
+import categoryReducer from './categoryReducer';
 
 const reducers=combineReducers({
-    title:reducer,
+    price:reducer,
+    category:categoryReducer,
 })
 export default reducers;

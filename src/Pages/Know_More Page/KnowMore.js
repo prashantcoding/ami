@@ -5,7 +5,9 @@ import cod1 from "./cod1.jfif";
 import cod2 from "./cod2.jfif";
 import cod3 from "./cod3.jfif";
 const KnowMore = () => {
-    
+    const handleOnclick=async()=>{
+            console.log('Registered')
+    }
     return (
         <div className={styles.container}>
             <div className={styles.poster}></div>
@@ -43,6 +45,7 @@ const KnowMore = () => {
                  </div>
 
              </div>
+             <button onClick={handleOnclick} className={styles.button_register}>Register</button>
         </div>
     )
 }

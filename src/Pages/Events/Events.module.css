@@ -4,29 +4,9 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.price_tag{
-  position:sticky;
-  color:black;
-  font-weight: normal;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  
-  background-color: greenyellow;
-  width: 300px;
-  padding:10px;
-  border-radius: 21px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  z-index: 10000;
-  
-}
-.pay_now_btn{
-  border-radius: 21px 21px 21px 21px;
-  padding: 10px 30px;
-  border:transparent;
-  background-color: #2A9FD6;
-  align-items: center;
-  align-content: center;
-  
+
+
+.category{
+   color:yellow;
+   font-size: 24px;
 }
