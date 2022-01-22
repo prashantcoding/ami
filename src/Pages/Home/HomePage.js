@@ -17,7 +17,7 @@ const HomePage = (props) => {
      
       <div className={styles.nav}>
           <div className={styles.logo}>
-            <img src={ami} />
+            <img class={styles.logo_img}src={ami} />
             <h1>Amichroma</h1>
           </div>
 
