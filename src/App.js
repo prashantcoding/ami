@@ -3,8 +3,8 @@ import CategoryPage from "./Pages/CategoryPage/CategoryPage";
 import HomePage from "./Pages/Home/HomePage";
 import {AnimatePresence} from 'framer-motion'
 import { Switch, Route,useLocation } from 'react-router-dom';
-import Esports from "./Pages/Esports/Esports";
-import Login from "./Auth/Login";
+import EventPage from './Pages/Events/EventPage' ;
+import KnowMore from './Pages/Know_More Page/KnowMore';
 const App = () => {
   const location = useLocation();
   return (
@@ -17,9 +17,11 @@ const App = () => {
           <CategoryPage />
         </Route>
         <Route path="/esport">
-          <Esports/>
+          <EventPage/>
         </Route>
-      
+        <Route path="/know_more">
+          <KnowMore/>
+        </Route>
       </Switch>
     </AnimatePresence>
   );

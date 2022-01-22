@@ -1,11 +1,24 @@
 import React from "react";
 import { GoogleLogin } from "react-google-login";
 
-
+import axios from "axios";
 function SignIn() {
-    const responseGoogle = (response) => {
-        console.log("HIi")
-        console.log(response);
+    const responseGoogle = async(response) => {
+        
+       axios({
+            method: "post",
+            url: "http://localhost:5000/api/users/register",
+            
+            data: {
+              id:response.profileObj.googleId,
+              email:response.profileObj.email,
+              name:response.profileObj.name,
+            }
+          }).then((res) => {
+            console.log(res.data);
+            
+          })
+          .catch((err) => console.log(err));;
       }
       
   return (
@@ -14,6 +27,7 @@ function SignIn() {
       
       onSuccess={responseGoogle}
       onFailure={responseGoogle}
+      
       cookiePolicy={"single_host_origin"}
     />
   );
