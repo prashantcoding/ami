@@ -3,7 +3,7 @@ import styles from './Rstyle.module.css'
 import axios from "axios";
 import Alert from '../Alert/Alert';
 const Register = (props) => {
-  const [alert, setalert] = useState(true);
+  const [alert, setalert] = useState(false);
     const [alert_data,setalert_data]=useState('');
     const get_alert=(data)=>{
       console.log("get_alert is reaching here");

@@ -7,8 +7,10 @@ import Sidebar from "../../Component/Sidebar/index";
 import { FaHamburger } from "react-icons/fa";
 import sample from './bg7.mp4';
 import Login from "../../Auth/Login";
+import LogOut from "../../Auth/LogOut";
 const HomePage = (props) => {
   const [isOpen, setisOpen] = useState(false);
+ 
   const toggle = () => {
     setisOpen(!isOpen);
   };
@@ -32,7 +34,7 @@ const HomePage = (props) => {
             <span className={styles.link}>About us </span>
           </div>
           <div className={styles.dig_line_two}></div>
-          <div className={styles.signup}><Login/></div>
+          <div className={styles.signup}>{localStorage.getItem('Auth_token')?<LogOut/>:<Login/>}</div>
           <div onClick={toggle} className={styles.ham}>
             <FaHamburger size={40}></FaHamburger>
           </div>
