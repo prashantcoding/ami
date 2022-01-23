@@ -6,6 +6,7 @@ import cod2 from "./cod2.jfif";
 import cod3 from "./cod3.jfif";
 import DisplayRules from "./DisplayRules";
 import { list } from "./lst";
+import Testimonial from "../../Component/Card/Testimonial";
 const KnowMore = () => {
   return (
     <div className={styles.container}>
@@ -19,15 +20,16 @@ const KnowMore = () => {
             <DisplayRules rules={items.rules} />
           </div>
           <div className={styles.cod_container}>
-            <img src={cod1} className={styles.cod_img}></img>
-
-            <img src={cod2} className={styles.cod_img}></img>
-
-            <img src={cod3} className={styles.cod_img}></img>
+              <Testimonial img={cod1} name={"Soniya james"}></Testimonial>
+              <Testimonial img={cod2} name={"Isha Singh"}></Testimonial>
+              <Testimonial img={cod3} name={"Jane williams"}></Testimonial>
           </div>
         </>
       ))}
+      <div className={styles.buttonbox}>
       <button  className={styles.button_register}>Register</button>
+      </div>
+      
     </div>
     
   );

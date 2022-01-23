@@ -37,6 +37,11 @@
     display: flex;
     margin-bottom: 2rem;
     justify-content: center;
+    flex-wrap: wrap;
+}
+.buttonbox{
+    display: flex;
+    justify-content: center;
 }
 .button_register{
     border-radius: 21px 21px 21px 21px;
@@ -44,7 +49,9 @@
     border:transparent;
     background-color: #2A9FD6;
     margin:auto;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     text-decoration: none;
     display: flex;
+    position: relative;
+    top: 4rem;
 }

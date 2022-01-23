@@ -5,6 +5,7 @@ import {AnimatePresence} from 'framer-motion'
 import { Switch, Route,useLocation } from 'react-router-dom';
 import EventPage from './Pages/Events/EventPage' ;
 import KnowMore from './Pages/Know_More Page/KnowMore';
+import AboutUs from './Pages/AboutUs/AboutUs'
 const App = () => {
   const location = useLocation();
   return (
@@ -21,6 +22,9 @@ const App = () => {
         </Route>
         <Route path="/know_more">
           <KnowMore/>
+        </Route>
+        <Route path="/AboutUs">
+          <AboutUs/>
         </Route>
       </Switch>
     </AnimatePresence>
