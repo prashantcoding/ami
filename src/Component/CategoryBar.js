@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Cstyle.module.css';
 import { motion } from "framer-motion";
+
 const CategoryBar = (props) => {
     return (
         <motion.div

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./knowStyle.module.css";
 import poster from "./dacne.jpg";
 import cod1 from "./cod1.jfif";
@@ -8,11 +8,19 @@ import DisplayRules from "./DisplayRules";
 import { list } from "./lst";
 import Testimonial from "../../Component/Card/Testimonial";
 import Register from "../../Component/Register/Register";
+import CategoryBar from '../../Component/CategoryBar'
+import Alert from "../../Component/Alert/Alert";
 const KnowMore = () => {
+  
   return (
+    <>
+    
     <div className={styles.container}>
+      
       {list.map((items) => (
         <>
+         <CategoryBar title={items.name}/>
+         
           <div className={styles.posterholder}>
             <img className={styles.poster} src={poster}></img>
           </div>
@@ -25,14 +33,17 @@ const KnowMore = () => {
               <Testimonial img={cod2} name={"Isha Singh"}></Testimonial>
               <Testimonial img={cod3} name={"Jane williams"}></Testimonial>
           </div>
-          <Register title={items.title}/>
+          <Register  title={items.title}/>
+          
         </>
-        
       ))}
      
     </div>
     
+
+    </>
   );
+ 
 };
 
 export default KnowMore;

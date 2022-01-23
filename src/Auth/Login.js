@@ -13,9 +13,11 @@ function SignIn() {
               id:response.profileObj.googleId,
               email:response.profileObj.email,
               name:response.profileObj.name,
-            }
+            },
+            
           }).then((res) => {
-            console.log(res.data);
+            console.log(res);
+            localStorage.setItem('Auth_token',res.data.Auth_token)
             
           })
           .catch((err) => console.log(err));;

@@ -12,5 +12,9 @@
     text-decoration: none;
     display: flex;
     position: relative;
-    top: 4rem;
+   top:2rem;
+}
+.alert_box{
+    display: flex;
+    justify-content: center;
 }
