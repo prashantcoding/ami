@@ -14,7 +14,6 @@ body{
     font-family: 'Poppins', sans-serif;
     position: relative;
     top:5rem;
-    animation: animate 20s linear infite;
     margin: 2rem;
 }
 
@@ -38,19 +37,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     font-size: small;
-    /* justify-content: center; */
-    /* place-content: center; */
+    
     padding-left: 1rem;
     padding-right: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     
 }
-h1{
-     font-family: 'Poppins', sans-serif;
-     color:#44CCB2;
 
-}
 .icons{
     height: 30px;
     margin-left: 2%;
