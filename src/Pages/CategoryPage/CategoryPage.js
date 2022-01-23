@@ -42,7 +42,7 @@ const CategoryPage = () => {
           
           <div>
             <img src={gamepad} className={styles.gamepad} alt="gamepad"></img>
-            <center> <span className={styles.name} onClick={()=>handleOnclick('games')} >Esport</span></center>
+            <center> <span className={styles.name} onClick={()=>handleOnclick('games')} >Games</span></center>
           </div>
           <div>
             <img

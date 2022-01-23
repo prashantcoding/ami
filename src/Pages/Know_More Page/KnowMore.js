@@ -7,6 +7,7 @@ import cod3 from "./cod3.jfif";
 import DisplayRules from "./DisplayRules";
 import { list } from "./lst";
 import Testimonial from "../../Component/Card/Testimonial";
+import Register from "../../Component/Register/Register";
 const KnowMore = () => {
   return (
     <div className={styles.container}>
@@ -24,12 +25,11 @@ const KnowMore = () => {
               <Testimonial img={cod2} name={"Isha Singh"}></Testimonial>
               <Testimonial img={cod3} name={"Jane williams"}></Testimonial>
           </div>
+          <Register title={items.title}/>
         </>
+        
       ))}
-      <div className={styles.buttonbox}>
-      <button  className={styles.button_register}>Register</button>
-      </div>
-      
+     
     </div>
     
   );
