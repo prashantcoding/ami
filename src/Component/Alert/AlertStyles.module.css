@@ -1,0 +1,22 @@
+.alert {
+  padding: 10px;
+  background-color: greenyellow;
+  color: black;
+  /* width: 50vw; */
+  position: relative;
+  /* justify-content: space-evenly; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 21px 21px 21px 21px;
+  
+  }
+  
+  /* The close button */
+
+  .alert_btn{
+    border-radius: 21px 21px 21px 21px;
+    padding: 10px 30px;
+    border:transparent;
+    background-color: #2A9FD6;
+  }

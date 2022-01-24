@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './Cstyle.module.css';
 import { motion } from "framer-motion";
-const CategoryBar = () => {
+
+const CategoryBar = (props) => {
     return (
         <motion.div
     initial={{y:-400}}
@@ -10,7 +11,7 @@ const CategoryBar = () => {
     transition={{ duration: 1}}
       >
         <div className={styles.box}>
-            <center><h1 className={styles.heading}>Competition Categories</h1></center>
+            <center><h1 className={styles.heading}>{props.title}</h1></center>
         </div></motion.div>
     )
 }

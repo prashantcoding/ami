@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./cpstyle.module.css";
+import { useHistory } from "react-router-dom";
+
 import {
   hacker,
   dance,
@@ -13,7 +15,18 @@ import {
 import CategoryBar from "../../Component/CategoryBar";
 import Footer from "../../Component/Footer/Footer";
 import { motion } from "framer-motion";
+import { useDispatch } from "react-redux";
+import { actionCreateor } from "../../store/index";
 const CategoryPage = () => {
+  let history = useHistory();
+  const dispatch=useDispatch();
+  const handleOnclick=(name)=>{
+    console.log("hii");
+    dispatch(actionCreateor.show_category(name));
+    localStorage.setItem("category", name);
+    history.push('/esport')
+  }
+  
   return (
     <>
       <motion.div
@@ -22,12 +35,14 @@ const CategoryPage = () => {
         exit={{ x: -400 }}
         transition={{ duration: 1 }}
       >
-        <CategoryBar />
-        <span class={styles.heading}>#Chroma Events</span>
+        <CategoryBar  title={"Competition Categories"}/>
+        
+        <span className={styles.heading}>#Chroma Events</span>
         <div className={styles.container}>
+          
           <div>
             <img src={gamepad} className={styles.gamepad} alt="gamepad"></img>
-            <center className={styles.name}>Esport</center>
+            <center> <span className={styles.name} onClick={()=>handleOnclick('games')} >Games</span></center>
           </div>
           <div>
             <img
@@ -35,7 +50,7 @@ const CategoryPage = () => {
               className={styles.football}
               alt="football"
             ></img>
-            <center className={styles.name}>football</center>
+           <center> <span className={styles.name} onClick={()=>handleOnclick('All')} >Football</span></center>
           </div>
           <div>
             <img src={dance} className={styles.dance} alt="Dance"></img>
@@ -49,7 +64,7 @@ const CategoryPage = () => {
             <img
               src={photography}
               className={styles.photography}
-              alt="gamepad"
+              alt='gamepad'
             ></img>
             <center className={styles.name}>Photography</center>
           </div>
@@ -65,9 +80,11 @@ const CategoryPage = () => {
             <img src={film} className={styles.film} alt="arts"></img>
             <center className={styles.name}>Film Making</center>
           </div>
+          
         </div>
+        
       </motion.div>
-      <Footer />
+     <Footer></Footer>
     </>
   );
 };

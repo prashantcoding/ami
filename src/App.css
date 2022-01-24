@@ -1,15 +1,33 @@
 body{
   background-color: black;
-  overflow-x: hidden;
-  overflow-y:hidden;
+  overflow-x:auto;
+  overflow-y:auto;
 }
 
 h3{
   color: #00B894;
 }
-@media only screen and (max-width: 900px){
-  body{
-    overflow-y:scroll;
-    overflow-x: hidden;
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #61a054 #ffffff;
   }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #00B894;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+Link{
+    text-decoration: none;
 }

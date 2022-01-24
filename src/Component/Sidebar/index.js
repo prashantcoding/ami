@@ -1,7 +1,7 @@
 import React from 'react'
 import { SidebarContainer,Icon,CloseIcon,SideBtnWrap,SidebarLink,SidebarWrapper,SidebarMenu,SidebarRoute } from './SidebarElements'
 const Sidebar = (props) => {
-    console.log(props.isOpen);
+    
     return (
         <SidebarContainer isOpen={props.isOpen} onClick={props.toggle}>
             <Icon>

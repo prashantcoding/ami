@@ -18,7 +18,7 @@
 .heading {
     position: relative;
     left: 15%;
-    top: 3rem;
+    top: 1.5rem;
   color: #44ccb2;
   font-size: 25px;
   font-family: "Michroma", sans-serif;
@@ -29,6 +29,7 @@
   padding-top: 1rem;
   text-transform: uppercase;
   font-size: 30px;
+  text-decoration: none;
 }
 
 .football {
@@ -74,7 +75,7 @@
     top: 80px;
     justify-content: flex-end;
     column-gap: 2rem;
-    left: 23%;
+    
   }
   .gamepad {
     width: 150px;
@@ -115,5 +116,14 @@
     
     top: auto;
     font-size: x-large;
+  }
+}
+@media only screen and (max-width: 300px){
+  .heading{
+      font-size: 20px;
+      left:auto;
+  }
+  .container{
+      left:23%;
   }
 }

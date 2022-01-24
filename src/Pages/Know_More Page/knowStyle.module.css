@@ -1,0 +1,41 @@
+.posterholder{
+        display: flex;
+        margin:2%;
+        justify-content: center;
+}
+.poster{
+    width:70%;
+    
+}
+.rules{
+    
+    color: whitesmoke;
+}
+.headline{
+    
+    color: whitesmoke;
+    
+    text-align: center;
+}
+
+.rules_container{
+    width:80%;
+   
+    margin: auto;
+    
+}
+.cod_img{
+    border-radius: 50%;
+    margin:10px;
+    width: 100px;
+    height: auto;
+}
+.cod_img:hover{
+    transform: scale(1.5);
+}
+.cod_container{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
