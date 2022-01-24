@@ -2,11 +2,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./EventStyle.module.css";
+import { motion } from "framer-motion"
 
 const EventsCard = (props) => {
- 
+  const variants = {
+    visible: { opacity: 1 },
+    hidden: { opacity: 0 },
+  }
   return (
     <>
+    <motion.div
+  initial="hidden"
+  animate="visible"
+  variants={variants}
+  transition={{ ease: "easeOut", duration: 2 }}
+>
     <div>
       <div
         style={{
@@ -26,7 +36,7 @@ const EventsCard = (props) => {
       </div>
     </div>
     
-  
+    </motion.div>
   </>);
 };
 

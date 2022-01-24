@@ -52,12 +52,12 @@ const HomePage = (props) => {
             <center className={styles.slogan}>Memories</center>
           </div>
           <div className={styles.box_events}>
-            <center className={styles.slogan}>
+           <Link className={styles.link} to="/events"><center className={styles.slogan}>
               Events
-            </center>
+            </center></Link>
           </div>
           <div className={styles.box}>
-            <center className={styles.slogan}>Workshops</center>
+            <center className={styles.slogan}>About Us</center>
           </div>
         </div>
       </motion.div>
