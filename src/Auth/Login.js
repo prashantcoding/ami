@@ -32,8 +32,9 @@ function SignIn(props) {
     <GoogleLogin
       clientId="936450679141-cfca18f007e6322fadv7l1s3b7qokh20.apps.googleusercontent.com"
       render={renderProps => (
-        
-        <button className={styles.signin} onClick={renderProps.onClick} disabled={renderProps.disabled}>Login</button>
+        <div className={styles.box}>
+        <button className={styles.button} onClick={renderProps.onClick} disabled={renderProps.disabled}>Login</button>
+        </div>
       )}
       onSuccess={responseGoogle}
       onFailure={responseGoogle}

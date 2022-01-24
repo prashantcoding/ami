@@ -54,3 +54,11 @@ body{
     display: flex;
     justify-content: center;
 }
+.name{
+    color:#5CDB95;
+}
+.ui_face:hover{
+    transform: scale(2);
+    
+    object-fit: 90%;
+}

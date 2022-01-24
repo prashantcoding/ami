@@ -4,6 +4,7 @@ import poster from "./dacne.jpg";
 import cod1 from "./cod1.jfif";
 import cod2 from "./cod2.jfif";
 import cod3 from "./cod3.jfif";
+import prashant from "./prashant3.jpeg"
 import DisplayRules from "./DisplayRules";
 import { list } from "./lst";
 import Testimonial from "../../Component/Card/Testimonial";
@@ -30,7 +31,7 @@ const KnowMore = () => {
           </div>
           <div className={styles.cod_container}>
               <Testimonial img={cod1} name={"Soniya james"}></Testimonial>
-              <Testimonial img={cod2} name={"Isha Singh"}></Testimonial>
+              <Testimonial img={ prashant} name={"Prashant Goswami"}></Testimonial>
               <Testimonial img={cod3} name={"Jane williams"}></Testimonial>
           </div>
           <Register  title={items.title}/>
