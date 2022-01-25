@@ -1,6 +1,4 @@
-body {
-    background-color: black;
-  }
+
   .box {
     height: 30px;
     width: 202px;
@@ -46,4 +44,5 @@ body {
       background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 50%,#ff4e00 100%); 
     animation: animate 1s linear   infinite;
   }
+  
   

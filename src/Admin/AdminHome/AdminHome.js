@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import styles from './Astyle.module.css'
 import showUser from './showUser';
 import exportFromJSON from 'export-from-json'
+import AddEvent from '../AddEvent/AddEvent';
 
 const AdminHome = () => {
   
@@ -63,6 +64,7 @@ const AdminHome = () => {
     <button className={styles.button} onClick={handleOnclick}>Get Registerd User</button></div>
     <div className={styles.box}>
     <button className={styles.button} onClick={handleOnclick2}>Get Particular User</button></div>
+    <AddEvent/>
      </>
    )
 }
