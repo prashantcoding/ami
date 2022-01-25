@@ -1,6 +1,12 @@
+import cod1 from './cod1.jfif'
+import cod2 from './cod2.jfif'
+import prashant from './prashant.jpg'
+import poster from './dacne.jpg'
+
 const list = [
   {
     id_: "1",
+    poster:poster,
     rules: [
       "Each Team must maintain, during the tournament exactly four players which is the minimum and maximum number of players allowed",
       "Each Team must maintain, during the tournament exactly four players which is the minimum and maximum number of players allowed",
@@ -9,6 +15,10 @@ const list = [
     ],
     name: ["BATTLE GROUNDS MOBILE INDIA (BGMI) TOURNAMENT"],
     title:"BGMI",
+    coordinators:["Monica Agarwal","prashant Goswami","Rashmika Mandanna"],
+    Fcoordinators:[],
+    imgsrc:[cod1,prashant,cod2],
+
   },
 ];
 
