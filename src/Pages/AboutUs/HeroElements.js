@@ -8,6 +8,7 @@ export const HeroContainer =styled.div`
     padding:0 30px;
     position:relative;
     z-index:1;
+    overflow-x: hidden;
     // /*Add :befor styles*/
 
 `

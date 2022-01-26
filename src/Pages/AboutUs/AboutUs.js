@@ -3,6 +3,7 @@ import Vedio from "./Vedio";
 import styles from './Astyles.module.css'
 import {  motion, useAnimation } from "framer-motion"
 import Message from "./Message";
+import Message2 from "./Message2";
 
 const AboutUs = () => {
   
@@ -10,18 +11,21 @@ const AboutUs = () => {
   <>
   
   <Vedio />
-  <div data-aos="fade-right" className={styles.heading}><h1>Design and Devlopement</h1></div>
+  <div  className={styles.heading}><h1>Design and Devlopement</h1></div>
  
   
-  <div className={styles.message_container}>
-  
+ 
+  <div className={styles.container}> 
   <Message/>
+  <Message2/>
   <Message/>
+  <Message2/>
   <Message/>
+  <Message2/>
   <Message/>
-  <Message/>
-  
+  <Message2/>
   </div>
+ 
   
   
   

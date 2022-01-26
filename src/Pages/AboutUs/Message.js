@@ -15,17 +15,19 @@ const Message = () => {
     }
   }, [controls, inView]);
   const squareVariants={
-    visible:{x:"0",transition:{ease: "easeOut",duration: 2}},
-    hidden:{x:"-100px",transition:{ease: "easeOut",duration: 1}}
+    visible:{x:"15vw",transition:{ease: "easeOut",duration: 1}},
+    hidden:{x:"-0vw",transition:{ease: "easeOut",duration: 2}}
   };
-  
+
   return (
+    <>
     <motion.div
     ref={ref}
     animate={controls}
     initial="hidden"
     variants={squareVariants}
-    className="square"
+   
+    className={styles.ani}
   >
     <div className={styles.box}>
     <div class={styles.box2}>
@@ -40,6 +42,8 @@ const Message = () => {
 
 </div>
 </motion.div>
+
+</>
   );
 };
 

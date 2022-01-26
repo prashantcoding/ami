@@ -7,8 +7,8 @@
     border-radius: 53px;
     margin-top: 1rem;
     position:relative;
-    position:relative;
-    left:30%;
+    
+    
 }
   /* background-color: #ff4e00;
   background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
@@ -22,6 +22,19 @@
     background-color: black;
     
  } 
+ .ani{
+   /* background-color: white; */
+   position: relative;
+  width: fit-content;
+   
+ }
+ .ani2{
+  /* background-color: white; */
+  position: relative;
+ width: fit-content;
+  left: 70%;
+   
+}
   .img{
     border-radius: 63px;
     width: 250px;
@@ -61,10 +74,7 @@
     border-radius: 63px;
     position: relative;
     
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
   }
   .box:hover {
       
@@ -75,29 +85,30 @@
   @media only screen and (max-width: 900px) {
     .box{
       transform: scale(0.7);
-      position:relative;
-    left:10%;
+      
       
     }
-  
-    .box:hover {
-      
-      background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 50%,#ff4e00 100%); 
-      animation: animate 1s linear   infinite;  
-      
+    .ani1{
+      right: 10%;
     }
+    
   }
   @media only screen and (max-width: 500px) {
     .box{
       transform: scale(0.5);
-      position:relative;
-    left: -8rem;
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 50%,#ff4e00 100%); 
-    animation: animate 1s linear   infinite;  
+      left: -57%;
     
   }
     }
-  
+    @media only screen and (max-width: 400px) {
+      .box{
+        transform: scale(0.5);
+       
+      
+      
+      
+    }
+      }
    
   body {
     background-color: #121212;
