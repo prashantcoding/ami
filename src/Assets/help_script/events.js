@@ -7,8 +7,8 @@ const event= [
         "category":'games',
     },
     {
-        "id":2,
-        "title":"Tambola",
+        "id":1,
+        "title":"TAMBOLA",
         "imgsrc":tambola, 
         "category":'games',
     },

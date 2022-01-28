@@ -22,3 +22,11 @@ export const show_category=(category)=>{
         })
      }
     }
+    export const show_event=(event)=>{
+        return(dispatch)=>{
+            dispatch({
+             type:'particular_event',
+             payload:event,
+            })
+         }
+        }

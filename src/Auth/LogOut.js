@@ -10,7 +10,9 @@ const LogOut = (props) => {
         history.push('/');
     }
   return(
-    <button className={styles.signin} onClick={logout} >LogOut</button>
+    <div className={styles.box}>
+    <button className={styles.button} onClick={logout} >LogOut</button>
+    </div>
   )
     
 };

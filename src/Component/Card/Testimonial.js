@@ -2,10 +2,16 @@ import React from 'react';
 import styles from './Tstyle.module.css'
 import inst from './insta.png';
 import ld from './ld.png'
+
 const Testimonial = (props) => {
+  const variants = {
+    visible: { opacity: 1 },
+    hidden: { opacity: 0 },
+  }
   return(
       <>
-        
+      
+
         <div className={styles.container}>
             <div className={styles.image_container}>
                 <img  className={styles.ui_face} src={props.img}/>
@@ -19,7 +25,7 @@ const Testimonial = (props) => {
                 <img className={styles.icons} src={ld}/>
             </div>
     </div>
-        
+    
       </>
   )
 };
