@@ -3,7 +3,7 @@ import styles from './Mstyle.module.css'
 import prashant from '../Know_More Page/prashant.jpg'
 import { motion, useAnimation } from 'framer-motion';
 import {useInView} from 'react-intersection-observer';
-const Message = () => {
+const Message = (props) => {
   const controls = useAnimation();
   const [ref, inView] = useInView();
   useEffect(() => {
@@ -15,8 +15,8 @@ const Message = () => {
     }
   }, [controls, inView]);
   const squareVariants={
-    visible:{x:"15vw",transition:{ease: "easeOut",duration: 1}},
-    hidden:{x:"-0vw",transition:{ease: "easeOut",duration: 2}}
+    visible:{x:"10vw",transition:{ease: "easeOut",duration: 1}},
+    hidden:{x:"0vw",transition:{ease: "easeOut",duration: 2}}
   };
 
   return (
@@ -29,16 +29,15 @@ const Message = () => {
    
     className={styles.ani}
   >
-    <div className={styles.box}>
-    <div class={styles.box2}>
-        <img src={prashant} class={styles.img}/>
+  
+    <div className={styles.box2}>
+        <img src={props.img} className={styles.img}/>
         <div>
-        <h1 class={styles.desc}>Amichrom 2k22 is something that inspires me to build things like this website 
-            its really brings platform to showcase your talent interact with people and 
-            create moments to remember to enjoy the event 
-        </h1>
+        <h1 className={styles.desc}>{props.text}</h1>
+        <small><h3>{props.name}</h3></small>
+        <small><h3>{props.position}</h3></small>
         </div>
-    </div>
+      
 
 </div>
 </motion.div>

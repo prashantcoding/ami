@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,900;1,700;1,800;1,900&display=swap');
 .container{
-    background: wheat;
-    display: flex;
-    flex-direction: column;
+    background: black;
     justify-content: flex-start;
-    position: absolute;
-    width: 100vw;
-    overflow: hidden;
+    position: relative;
+    /* overflow: hidden; */
+    /* right: 13rem; */
+    background: wheat;
+    right: 13rem;
 }
 .heading{
     color: whitesmoke;
@@ -24,3 +24,8 @@
     position: absolute;
     overflow: scroll;
 }
+@media only screen and (max-width: 1200px) {
+}
+    
+
+ 

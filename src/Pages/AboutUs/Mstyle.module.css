@@ -1,15 +1,7 @@
-
-  .box {
-    height: 300px;
-    width: 600px;
-    padding: 10px;
-    
-    border-radius: 53px;
-    margin-top: 1rem;
-    position:relative;
-    
-    
+body{
+  overflow-x: hidden;
 }
+
   /* background-color: #ff4e00;
   background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
  .box2{
@@ -19,19 +11,22 @@
     height: 300px;
     width: 600px;
     grid-area: "image" "desc";
-    background-color: black;
-    
+    background-color: #121212;
+    border:2px solid #44CCB2;
+
  } 
  .ani{
    /* background-color: white; */
    position: relative;
-  width: fit-content;
-   
- }
+  width: 600px;
+  height: 300px;
+     
+   }
  .ani2{
   /* background-color: white; */
   position: relative;
- width: fit-content;
+  width: 600px;
+  height: 300px;
   left: 70%;
    
 }
@@ -43,79 +38,34 @@
     object-fit: cover;
     
   }
-  @keyframes animate {
-    0% {
-     
-      filter: hue-rotate(0deg);
-    }
-    25%{
-        filter: hue-rotate(120deg);
-    }
-    50% {
-     
-      filter: hue-rotate(180deg);
-    }
-    100% {
-     
-      filter: hue-rotate(360deg);
-    }
-  }
+
   .desc{
     text-align: left;
     color:white;
     font-size: medium;
   }
-  .box button {
-    height: 23px;
-    width: 200px;
-    padding: 16px;
-    color: white;
-    background-color: #1212;
-    border-radius: 63px;
-    position: relative;
-    
-    
-  }
-  .box:hover {
-      
-    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 50%,#ff4e00 100%); 
-    animation: animate 1s linear   infinite;  
-    
-  }
-  @media only screen and (max-width: 900px) {
-    .box{
-      transform: scale(0.7);
-      
+  @media only screen and (max-width: 400px) {
+    .box2{
+      left: -10rem;
+      transform: scale(0.6);
+      position: relative;
+    }
+    .ani{
+      /* background-color: yellow; */
+      width: 348px;
+    height: 263px;
+    left:.6rem
+    }
+    .ani2{
+      /* background-color: yellow; */
+      width: 324px;
+    height: 152px;
+      left: 37%;
       
     }
-    .ani1{
-      right: 10%;
-    }
-    
-  }
-  @media only screen and (max-width: 500px) {
-    .box{
-      transform: scale(0.5);
-      left: -57%;
-    
-  }
-    }
-    @media only screen and (max-width: 400px) {
-      .box{
-        transform: scale(0.5);
+    .box2{
+      transform: scale(0.6);
        
-      
-      
-      
-    }
-      }
    
-  body {
-    background-color: #121212;
+    } 
   }
-  
-  /* background-color: #ff4e00;
-  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
-  
-
-  

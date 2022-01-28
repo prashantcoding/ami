@@ -3,10 +3,10 @@ import styles from './Mstyle.module.css'
 import prashant from '../Know_More Page/prashant.jpg'
 import { motion, useAnimation } from 'framer-motion';
 import {useInView} from 'react-intersection-observer'
-const Message2 = () => {
+const Message2 = (props) => {
     const controls = useAnimation();
     const [ref, inView] = useInView();
-    useEffect(() => {
+    useEffect((props) => {
       if (inView) {
         controls.start("visible");
       }
@@ -29,17 +29,16 @@ const Message2 = () => {
      
       className={styles.ani2}
     >
-      <div className={styles.box}>
-      <div class={styles.box2}>
-          <img src={prashant} class={styles.img}/>
+      
+      <div className={styles.box2}>
+          <img src={props.img} className={styles.img}/>
           <div>
-          <h1 class={styles.desc}>Amichrom 2k22 is something that inspires me to build things like this website 
-              its really brings platform to showcase your talent interact with people and 
-              create moments to remember to enjoy the event 
-          </h1>
+          <h1 className={styles.desc}>{props.text}</h1>
+          <small><h3>{props.name}</h3></small>
+        <small><h3>{props.position}</h3></small>
           </div>
-      </div>
-  
+      
+          
   </div>
   </motion.div>
   
