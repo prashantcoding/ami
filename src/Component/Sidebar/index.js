@@ -1,4 +1,6 @@
 import React from 'react'
+import LogOut from '../../Auth/LogOut'
+import Login from '../../Auth/Login'
 import { SidebarContainer,Icon,CloseIcon,SideBtnWrap,SidebarLink,SidebarWrapper,SidebarMenu,SidebarRoute } from './SidebarElements'
 const Sidebar = (props) => {
     
@@ -8,10 +10,10 @@ const Sidebar = (props) => {
                 <CloseIcon/></Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLink to="about">
+                        <SidebarLink to="AboutUs">
                             About
                         </SidebarLink>
-                        <SidebarLink to="/events">
+                        <SidebarLink to="events">
                            Events
                         </SidebarLink>
                         <SidebarLink to="Services">
@@ -22,7 +24,7 @@ const Sidebar = (props) => {
                         </SidebarLink>
                     </SidebarMenu>
                     <SideBtnWrap>
-                        <SidebarRoute to='/signin'>Sign In</SidebarRoute>
+                        <div>{localStorage.getItem('Auth_token')?<LogOut/>:<Login/>}</div>
                     </SideBtnWrap>
                 </SidebarWrapper>
             

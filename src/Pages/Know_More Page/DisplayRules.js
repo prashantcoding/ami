@@ -9,9 +9,9 @@ const DisplayRules = (props) => {
       row.push(
         
         <ul>
-        <li className={styles.rules} key={i}>
+        <span className={styles.rules} key={i}>
           {props.rules[i]}
-        </li>
+        </span>
         </ul>
       );
     }

@@ -25,14 +25,14 @@ const AboutUs = () => {
           name={"Lt.Gen. V.K. Sharma"}
           position={"vice-chancellor"}
         />
-        <Message2
+         <Message2
           img={testimonial2}
           text=
             "The day, students approached me for this event, I was amazed and proud to know that our youth has so much to offer. They are boost up with enthusiasm and confidence. I am just the one to provide them proper direction."
           
           name="Maj. Gen. Dr. S.C. Jain"
           position="HOI ASET"
-        />
+        /> 
         {/* <Message
           text={
             "The dedication and creativity of students in making this event from scratch is exemplary. The fun and laughter has been backed by the societal causes which is commendable.Best wishes to all the organisers and participants"

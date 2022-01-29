@@ -26,12 +26,12 @@ const HomePage = (props) => {
           <div className={styles.dig_line}></div>
 
           <div className={styles.content}>
-            <span className={styles.link}>Workshops</span>
+            {/* <span className={styles.link}>Workshops</span> */}
             <Link to="/events" className={styles.link}>
               Events
             </Link>
-            <span className={styles.link}>Gallery</span>
-            <span className={styles.link}>About us </span>
+            <Link to="/gallery" className={styles.link}>Memories</Link>
+            <Link to="/AboutUs" className={styles.link}>About us </Link>
           </div>
           <div className={styles.dig_line_two}></div>
           <div className={styles.signup}>{localStorage.getItem('Auth_token')?<LogOut/>:<Login/>}</div>
@@ -57,7 +57,7 @@ const HomePage = (props) => {
             </center></Link>
           </div>
           <div className={styles.box}>
-            <center className={styles.slogan}>About Us</center>
+          <Link to="AboutUs" className={styles.link} > <center className={styles.slogan}>About Us</center></Link>
           </div>
         </div>
       </motion.div>
