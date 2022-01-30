@@ -99,7 +99,7 @@ const event= [
     },
     {
         "id":17,
-        "title":"BLOG’OID",
+        "title":"BLOG'OID",
         "imgsrc":blog, 
         "category":'edu',
     },

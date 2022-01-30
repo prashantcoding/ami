@@ -4,7 +4,7 @@ const DisplayRules = (props) => {
   console.log(props.rules);
   const row = [];
 
-  const disp = () => {
+   {
     for (let i = 0; i < props.rules.length; i++) {
       row.push(
         
@@ -17,11 +17,12 @@ const DisplayRules = (props) => {
     }
     return(
         <div className={styles.rules_container}>
+          <span className={styles.rules}>For All Rules Please Refer Rule Book</span>
             {row}
         </div>
     );
   };
-  return disp();
+ 
 };
 
 export default DisplayRules;

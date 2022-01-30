@@ -16,9 +16,9 @@ import Utkarsh from "./images/ut.jpeg";
 import Krishna from "./images/krish.jpeg";
 import Mansi from "./images/man.jpeg";
 
+import blogPoster from "./images/blogPoster.png";
 ////////////////
 const list = [
- 
   {
     poster: poster,
     rules: [
@@ -131,7 +131,7 @@ const list = [
       "https://instagram.com/pradhumnmittal?utm_medium=copy_link",
       "https://instagram.com/dev__ashish__078797?utm_medium=copy_link",
       "https://instagram.com/ajpreminger?utm_medium=copy_link",
-      
+
       "https://www.linkedin.com/in/utkarsh-sharma-aa4032205",
       "https://instagram.com/_.r.a.h.h.h._?utm_medium=copy_link",
       "https://instagram.com/krish_goyal01?utm_medium=copy_link",
@@ -158,7 +158,6 @@ const list = [
       "Getting the opportunity to become the part of the organizing team was worthwhile and it taught me how to work in a team. I am thankful that i was the part of this team.",
       "Organising an event is my favourite thing to do and amity is providing me with an excellent opportunity by sanctioning me and my friends to organise an event in the largest fest of amity which I am really thankful for.",
       "I have come to learn so many things and gained plenty of knowledge while working and organising this event. It will be appreciated if you all take part in this.",
-      
     ],
     imgsrc: [
       Gaurav,
@@ -183,6 +182,49 @@ const list = [
       "http://www.linkedin.com/in/mansi-tripathi-b4035b20b",
     ],
     wg_link: "https://chat.whatsapp.com/IFbPe4vXserEmcbOJLF0cD",
+  },
+  {
+    ///value defualt if missing
+
+    poster: blogPoster,
+    rules: [
+      "1) Topics are flexible but should be relevant to the theme of the event.",
+      "2) Blog should follow a proper format.",
+      "3) Content should be topic related and relevant.",
+      "4) Participants should focus on maintaining a proper Vocabulary.",
+      "5) Blog should be under the strict constraints and be up to point.",
+      "6) Blog should contain pictorial depiction related to the topic.",
+      "7) Word Limit: 500-700 words.",
+    ],
+    name: ["BLOG'OID"],
+    title: "BLOG'OID",
+    coordinators: [
+      "Suseem Vikram",
+      "Anirudh Nair",
+      "Radhika Begwani",
+      "Aman Dixit",
+    ],
+    insta: [
+      "https://www.instagram.com/suseemvikramm/",
+      "https://www.instagram.com/anirudh_tn/",
+      "https://www.instagram.com/radhikabegwani/",
+      "https://www.instagram.com/n_u_t_c_a_s_e/",
+    ],
+    imgsrc: [def,def,def,def],
+    link_id: [
+      "https://www.linkedin.com/in/suseemvikram",
+      "https://www.linkedin.com/in/anirudh-nair-84675b201",
+      "https://www.linkedin.com/in/radhika-begwani-5196b2204",
+      "https://www.linkedin.com/in/aman-dixit-1189141b8",
+    ],
+
+    message: [
+      "In my opinion keeping a technical blog can be a great way of documenting your growth as a developer and I believe that great technical blogs are treasure chests hidden deep within the depths of the internet ocean.",
+      "I'm well pleased to be the part of organizing team and to work with the core team of BLOG'OID and I hope we all leave a Lasting Impression to all the participants...Thank you!!",
+      "Tech! For me its the most profitable and growing niche. It could be your companion or even your rival sometimes. But what if i tell you that you could mend the gap between these two?! Amichroma’2022 brings you the precise opportunity which would not only help you clear your minds but also form the professional career perspectives.",
+      "Creative minds can be found in any field of endeavour, writing can sharpen your mind and show you the depths of language, come join us as we embark on a quest to test our creativity, with a technical blogging contest here at amichroma 2k22",
+    ],
+    wg_link: "https://chat.whatsapp.com/J3KoCO0WdqFByz7G9Vbmiq",
   },
 ];
 
