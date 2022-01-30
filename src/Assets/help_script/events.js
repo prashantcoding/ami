@@ -1,4 +1,4 @@
-import { bgmi,tambola,nine,tre,spin, poetry, selfie, codesnippet, extempore, photography, seriesquiz, poster, meme, blog, rj, standup, facep, model, tatoo, comedy, nzam, role, bp, webseries, bq, sam, bm, dance} from "./eveImage";
+import { bgmi,tambola,nine,tre,spin, poetry, selfie, codesnippet, extempore, photography, seriesquiz, poster, meme, blog, rj, standup, facep, model, tatoo, comedy, nzam, role, bp, webseries, bq, sam, bm, dance, shortmovie, mov} from "./eveImage";
 import { film } from "./imgimports";
 const event= [
     {
@@ -46,7 +46,7 @@ const event= [
     {
         "id":8,
         "title":"FILM MAKING",
-        "imgsrc":photography, 
+        "imgsrc":mov, 
         "category":'film',
     },
     {
@@ -88,7 +88,7 @@ const event= [
     {
         "id":15,
         "title":" SHORT MOVIE",
-        "imgsrc":film, 
+        "imgsrc":shortmovie, 
         "category":'film',
     },
     {

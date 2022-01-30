@@ -121,7 +121,7 @@ const CategoryPage = () => {
           </div>
         </div>
       </motion.div>
-      <Footer></Footer>
+     
     </>
   );
 };

@@ -27,6 +27,8 @@ import bm from '../Event_images/bm.jpg'
 import webseries from '../Event_images/webseries.jpg'
 import sam from '../Event_images/sam.jpeg'
 import dance from '../Event_images/dance.jfif'
+import shortmovie from '../Event_images/shortmovie.jpg'
+import mov from '../Event_images/mov.jfif'
 export{
-    bgmi,tambola,nine,tre,spin,poetry,selfie,blog,codesnippet,seriesquiz,photography,movie,meme,extempore,poster,standup,rj,facep,model,tatoo,comedy,nzam,role,bp,webseries,bq,sam,bm,dance
+    bgmi,tambola,nine,tre,spin,poetry,selfie,blog,codesnippet,seriesquiz,photography,movie,meme,extempore,poster,standup,rj,facep,model,tatoo,comedy,nzam,role,bp,webseries,bq,sam,bm,dance,shortmovie,mov
 }
