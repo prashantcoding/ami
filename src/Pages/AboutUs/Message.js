@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./Mstyle.module.css";
-import prashant from "../Know_More Page/prashant.jpg";
+
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 const Message = (props) => {

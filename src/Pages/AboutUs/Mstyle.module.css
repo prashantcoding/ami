@@ -48,7 +48,39 @@
   .name{
     color:#44CCB2;
   }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 600px) {
+    .box1{
+      height: 150px;
+      width: 300px;
+      grid-template-columns: 100px 190px;
+      margin-bottom: 2%;
+      right: 1rem;
+      position: relative;
+    }
+    .box2{
+      height: 150px;
+      width: 300px;
+      grid-template-columns: 100px 190px;
+      left: 5rem;
+      margin-bottom: 2%;
+    }
+    .img{
+      width:80px;
+    height: 80px;
+    }
+   .desc{
+    font-size: xx-small;
+     margin-left:2px;
+     text-align: justify;
+   }
+   .name{
+     font-size: small;
+  }
+  .position{
+    font-size:small;
+  }
+  }
+  @media only screen and  (max-width: 1200px) {
     .box1{
       height: 150px;
       width: 300px;

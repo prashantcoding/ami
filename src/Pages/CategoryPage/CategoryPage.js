@@ -71,7 +71,7 @@ const CategoryPage = () => {
           </div>
           <div>
             <img src={dance}  onClick={() => handleOnclick("enter")} className={styles.dance} alt="Dance"></img>
-            <center className={styles.name}>Entertainment</center>
+            <center className={styles.name}>Entertain</center>
           </div>
           <div>
             <img

@@ -5,11 +5,12 @@ const DisplayImg= (props) => {
   
   const row = [];
 
-  const disp = () => {
+  console.log("props",props)
+    
     for (let i = 0; i < props.imgsrc.length; i++) {
       row.push(
         
-        <Testimonial img={props.imgsrc[i]} name={props.coordinators[i]}></Testimonial>
+        <Testimonial img={props.imgsrc[i]} name={props.coordinators[i]} message={props.message[i]} insta={props.insta[i]}></Testimonial>
       );
     }
     return(
@@ -17,8 +18,7 @@ const DisplayImg= (props) => {
             {row}
         </div>
     );
-  };
-  return disp();
+  
 };
 
 export default DisplayImg;

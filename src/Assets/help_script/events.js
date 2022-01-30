@@ -1,4 +1,4 @@
-import { bgmi,tambola,nine,tre,spin, poetry, selfie, codesnippet, extempore, photography, seriesquiz, poster, meme, blog, rj, standup, facep, model, tatoo, comedy, nzam, role, bp, webseries, bq, sam, bm, dance, shortmovie, mov} from "./eveImage";
+import { bgmi,tambola,nine,tre,spin, poetry, selfie, codesnippet, extempore, photography, seriesquiz, poster, meme, blog, rj, standup, facep, model, tatoo, comedy, nzam, role, bp, webseries, bq, sam, bm, dance, shortmovie, mov, val} from "./eveImage";
 import { film } from "./imgimports";
 const event= [
     {
@@ -174,6 +174,13 @@ const event= [
         "title":"JASHN-E-NAZM",
         "imgsrc":nzam, 
         "category":'arts',
+    },
+    {
+        "id":28,
+        "title":"Valorant",
+        "imgsrc":val, 
+        "category":'games',
+        "genre":"Team",
     },
   ];
 

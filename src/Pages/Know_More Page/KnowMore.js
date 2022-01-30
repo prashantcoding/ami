@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./knowStyle.module.css";
-import poster from "./dacne.jpg";
+import poster from "./images/dacne.jpg";
 // import cod1 from "./cod1.jfif";
 // import cod2 from "./cod2.jfif";
 // import cod3 from "./cod3.jfif";
@@ -14,6 +14,7 @@ import CategoryBar from "../../Component/CategoryBar";
 // import { motion } from 'framer-motion';
 import DisplayImg from "./DisplayImg";
 
+
 const KnowMore = () => {
   
   const title=localStorage.getItem('event');
@@ -26,7 +27,7 @@ const KnowMore = () => {
             items.title === title && (
               <>
                 <CategoryBar title={items.name} />
-
+                console.log({items.insta})
                 <div className={styles.posterholder}>
                   <img className={styles.poster} src={items.poster}></img>
                 </div>
@@ -39,7 +40,12 @@ const KnowMore = () => {
                   <DisplayImg
                     imgsrc={items.imgsrc}
                     coordinators={items.coordinators}
+                    message={items.message}
+                    insta={items.insta}
+                    
+                    
                   />
+                  
                 </div>
                 <Register title={items.title} />
               </>

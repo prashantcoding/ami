@@ -46,7 +46,7 @@
 .icons{
     height: 30px;
     margin-left: 2%;
-
+    cursor: pointer;
 }
 .socials{
     display: flex;
