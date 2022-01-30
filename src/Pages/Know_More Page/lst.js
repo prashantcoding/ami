@@ -116,7 +116,7 @@ const list = [
 
     poster: poster,
     rules: [
-      "RULES OF GAMEPLAY -                          (Rules for registration will be present in Amichroma rule book)",
+      "RULES OF GAMEPLAY -(Rules for registration will be present in Amichroma rule book)",
       "1. Anyone can register and play in the tournament. (Whether they are an AMITIAN or not).",
       "2. Only the registered players can play in the tournament. (If any other player is caught playing, then the individual (Solo category) / whole team (Duo or Squad) will be disqualified.)",
       "3. If any two individuals (Solo category) / teams (Duo or Squad) are found teaming up, BOTH THE INDIVIDUALS / TEAMS WILL BE DISQUALIFIED.",

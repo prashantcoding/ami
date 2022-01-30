@@ -27,7 +27,7 @@ const KnowMore = () => {
             items.title === title && (
               <>
                 <CategoryBar title={items.name} />
-                console.log({items.insta})
+               
                 <div className={styles.posterholder}>
                   <img className={styles.poster} src={items.poster}></img>
                 </div>
