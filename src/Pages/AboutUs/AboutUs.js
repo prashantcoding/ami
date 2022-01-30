@@ -33,6 +33,22 @@ const AboutUs = () => {
           name="Maj. Gen. Dr. S.C. Jain"
           position="HOI ASET"
         /> 
+        <Message
+          img={Vc}
+          text={
+            "I’m glad that students are putting their 100% as a team for the event.Also their concern towards the society makes us proud.My best wishes are with them."
+          }
+          name={"Lt.Gen. V.K. Sharma"}
+          position={"vice-chancellor"}
+        />
+         <Message2
+          img={testimonial2}
+          text=
+            "The day, students approached me for this event, I was amazed and proud to know that our youth has so much to offer. They are boost up with enthusiasm and confidence. I am just the one to provide them proper direction."
+          
+          name="Maj. Gen. Dr. S.C. Jain"
+          position="HOI ASET"
+        /> 
         {/* <Message
           text={
             "The dedication and creativity of students in making this event from scratch is exemplary. The fun and laughter has been backed by the societal causes which is commendable.Best wishes to all the organisers and participants"
