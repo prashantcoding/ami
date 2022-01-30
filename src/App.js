@@ -7,6 +7,7 @@ import EventPage from './Pages/Events/EventPage' ;
 import KnowMore from './Pages/Know_More Page/KnowMore';
 import AboutUs from './Pages/AboutUs/AboutUs'
 import AdminHome from "./Admin/AdminHome/AdminHome";
+import Gallery from "./Gallery/Gallery";
 const App = () => {
   const location = useLocation();
   return (
@@ -30,6 +31,13 @@ const App = () => {
         <Route path="/Admin">
           <AdminHome/>
         </Route>
+        <Route path="/Gallery">
+          <Gallery/>
+        </Route>
+        <Route Path="/">
+          <HomePage/>
+        </Route>
+          
       </Switch>
     </AnimatePresence>
   );

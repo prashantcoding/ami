@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,900;1,700;1,800;1,900&display=swap');
+body{
+    overflow-x: hidden;
+}
 .container{
-    background: black;
-    justify-content: flex-start;
-    position: relative;
-    /* overflow: hidden; */
-    /* right: 13rem; */
-    background: wheat;
-    right: 13rem;
+    overflow-x:hidden;
 }
 .heading{
     color: whitesmoke;
@@ -14,15 +11,26 @@
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     color: #44CCB2;
+    margin: 2rem;
+    background-color: rgb(44,53,57);
 }
-.message_container{
-    background-color:black;
-    width: 100vw;
-    display:flex;
-    justify-content: flex-start;
+.subheading{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #44CCB2;
+    margin: 1rem;
+    padding: 1rem;
+   text-decoration: underline;
+    align-items: flex-start;
+   
+}
+.web_cood{
+   position: relative;
+    display: flex;
     flex-direction: column;
-    position: absolute;
-    overflow: scroll;
+    
 }
 @media only screen and (max-width: 1200px) {
 }

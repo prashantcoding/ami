@@ -1,10 +1,8 @@
-body{
-  overflow-x: hidden;
-}
+
 
   /* background-color: #ff4e00;
   background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
- .box2{
+ .box1{
    display: grid;
    grid-template-columns: 300px 290px;
    place-items:  center;
@@ -13,23 +11,23 @@ body{
     grid-area: "image" "desc";
     background-color: #121212;
     border:2px solid #44CCB2;
+    right:3vw;
+    border-radius: 35px;
+ }
+ .box2{
+  display: grid;
+  grid-template-columns: 300px 290px;
+  place-items:  center;
+   height: 300px;
+   width: 600px;
+   grid-area: "image" "desc";
+   background-color: #121212;
+   border:2px solid #44CCB2;
+   left: 60%;
+   border-radius: 35px;
+    position: relative;
+}  
 
- } 
- .ani{
-   /* background-color: white; */
-   position: relative;
-  width: 600px;
-  height: 300px;
-     
-   }
- .ani2{
-  /* background-color: white; */
-  position: relative;
-  width: 600px;
-  height: 300px;
-  left: 70%;
-   
-}
   .img{
     border-radius: 63px;
     width: 250px;
@@ -44,28 +42,69 @@ body{
     color:white;
     font-size: medium;
   }
-  @media only screen and (max-width: 400px) {
-    .box2{
-      left: -10rem;
-      transform: scale(0.6);
+  .position{
+    color:#44CCB2;
+  }
+  .name{
+    color:#44CCB2;
+  }
+  @media only screen and (max-width: 600px) {
+    .box1{
+      height: 150px;
+      width: 300px;
+      grid-template-columns: 100px 190px;
+      margin-bottom: 2%;
+      right: 1rem;
       position: relative;
     }
-    .ani{
-      /* background-color: yellow; */
-      width: 348px;
-    height: 263px;
-    left:.6rem
+    .box2{
+      height: 150px;
+      width: 300px;
+      grid-template-columns: 100px 190px;
+      left: 5rem;
+      margin-bottom: 2%;
     }
-    .ani2{
-      /* background-color: yellow; */
-      width: 324px;
-    height: 152px;
-      left: 37%;
-      
+    .img{
+      width:80px;
+    height: 80px;
+    }
+   .desc{
+    font-size: xx-small;
+     margin-left:2px;
+     text-align: justify;
+   }
+   .name{
+     font-size: small;
+  }
+  .position{
+    font-size:small;
+  }
+  }
+  @media only screen and  (max-width: 1200px) {
+    .box1{
+      height: 150px;
+      width: 300px;
+      grid-template-columns: 100px 190px;
     }
     .box2{
-      transform: scale(0.6);
-       
-   
-    } 
+      height: 150px;
+      width: 300px;
+      grid-template-columns: 100px 190px;
+    }
+    .img{
+      width:80px;
+    height: 80px;
+    }
+   .desc{
+    font-size: xx-small;
+     margin-left:2px;
+     text-align: justify;
+   }
+   .name{
+     font-size: small;
   }
+  .position{
+    font-size:small;
+  }
+  }
+  

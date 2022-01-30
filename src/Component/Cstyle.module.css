@@ -27,3 +27,12 @@
     height: 40px;
     }
   }
+  @media only screen and (max-width: 460px){
+    .heading{
+        color: #00B894;
+        font-size: 10px;
+      }
+      .box{
+    height: 40px;
+    }
+  }

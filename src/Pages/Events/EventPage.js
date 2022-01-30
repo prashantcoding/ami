@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import EventsCard from "../../Component/Card/EventsCard";
 import { event } from "../../Assets/help_script/events";
 import styles from "./Events.module.css";
+import CategoryBar from "../../Component/CategoryBar";
 
 const EventPage = () => {
   const category = useSelector((state) => state.category);
@@ -11,6 +12,7 @@ const EventPage = () => {
 
   return (
     <>
+     
       <div className={styles.container}>
         {event.map((items) =>
           category !== "All" ? (

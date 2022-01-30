@@ -1,8 +1,8 @@
 body{
   background-color: #121212;
-  overflow-x:auto;
-  overflow-y:auto;
   
+  overflow-y:auto;
+  overflow-x: hidden;
     margin: 0;
     padding: 0;
 
