@@ -39,3 +39,14 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+.ruleR{
+    text-align: left;
+    display: inline;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    font-size: small;
+}

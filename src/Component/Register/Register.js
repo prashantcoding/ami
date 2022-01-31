@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './Rstyle.module.css'
 import axios from "axios";
 import Alert from '../Alert/Alert';
+
 const Register = (props) => {
   const [alert, setalert] = useState(false);
     const [alert_data,setalert_data]=useState('');
@@ -14,6 +15,12 @@ const Register = (props) => {
     const show=(value)=>{
         setalert(value);
     }
+    const[num,setnum]=useState('')
+    const handleChange=async(e)=>{ 
+      console.log(num);
+      setnum(e.target.value);
+      
+    }
     const handleOnclick=async(e)=>{
         e.preventDefault();
         console.log("Trying To Register .....")
@@ -21,7 +28,7 @@ const Register = (props) => {
         
           axios.post('http://localhost:5000/api/event/eventRegister', {
             event: props.title,
-            
+            number:num,
           },{
             headers: {'Auth_token':localStorage.getItem('Auth_token')},
           })
@@ -44,7 +51,7 @@ const Register = (props) => {
     {alert&&<Alert data={alert_data} disp={show} />}
     </div>
     <div className={styles.buttonbox}>
-    
+    <input type="text" onChange={handleChange} className={styles.enter} placeholder="Enter Phone Number "></input>
     <button onClick={handleOnclick}className={styles.button_register}>Register</button>
     </div>
     

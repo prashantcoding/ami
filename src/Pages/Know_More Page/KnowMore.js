@@ -31,8 +31,16 @@ const KnowMore = () => {
                   <img className={styles.poster} src={items.poster}></img>
                 </div>
                 <div>
+                  <div className={styles.ruleR}>
+                    <h1 className={styles.headline}>Registration Guidelines</h1>
+                    <h3>Name will be same as google account so register with professional gmail</h3>
+                     <h3>IF you are solo just Click on Register Button </h3>
+                    <h3>IF you dont have a team right now  just Register and come back if you want to create Team </h3>
+                    <h3>For Team Create a Team an ID will we provided through which your team member can join using join team button </h3>
+                    <h3>To join a Team Enter Team ID and click on Join Button</h3>
+                   </div>
                   <h1 className={styles.headline}>Rules</h1>
-
+                    
                   <DisplayRules rules={items.rules} />
                 </div>
                 <h1 className={styles.headline}>Coordinators</h1>

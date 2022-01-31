@@ -7,12 +7,14 @@
     padding: 10px 20px;
     border:transparent;
     background-color: #2A9FD6;
-    margin:auto;
-    margin-bottom: 3rem;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     text-decoration: none;
     display: flex;
     position: relative;
-   top:2rem;
+   
 }
 .enter{
     border-radius: 21px 21px 21px 21px;

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./knowStyle.module.css";
 const DisplayRules = (props) => {
-  console.log(props.rules);
+  // console.log(props.rules);
   const row = [];
 
    {

@@ -5,7 +5,7 @@ const DisplayImg= (props) => {
   
   const row = [];
 
-  console.log("props",props)
+  // console.log("props",props)
     
     for (let i = 0; i < props.imgsrc.length; i++) {
       row.push(

@@ -79,6 +79,7 @@ const list = [
     ],
     link_id: ["a", "a"],
     wg_link: "",
+    genre:"TEAM"
   },
   /////////////////VALORANT////WORKING//////////
   {
@@ -428,6 +429,7 @@ const list = [
 
     message: ["", "", "", ""],
     wg_link: "",
+    genre:"Team"
   },
 
   //////////////////////////////////////////THE MIND MATRIX///////////////////////////
@@ -592,6 +594,7 @@ const list = [
 
         message: ["", "", "", ""],
         wg_link: "",
+        genre:"Team"
       },
     
   /////////////////SEREIS QUIZ////////////////////////////
@@ -645,7 +648,31 @@ const list = [
         message: ["", "", "", ""],
         wg_link: "",
       },
+    //////////////////////////ROLE MODEL//////////////////////
+    {
     
+      poster: poster,
+      rules: [
+        " 1.The participant is required to express/present his/her concept and thoughts during the live gement. He or she is not permitted to use recorded video or audio",
+        "2.Participants can’t take the help of others and are not allowed to refer to any materials or electronic gadgets during presentations",
+        
+        "3. The evaluation will be done on the basis of presentation content, innovation, communication skills and the overall performance",
+        "4.The panel members/judges/faculty coordinators will make the final selection of candidates  for final performance. Their decision will be the final decision",
+        
+      ],
+      name: ["ROLE MODEL ANALYSIS"],
+      title: "ROLE MODEL",
+      coordinators: [
+        "Mohit Saraswat  ",
+        "Yashika Batra ",
+      ],
+      insta: ["", "", ],
+      imgsrc: [def, def, ],
+      link_id: ["", "", ],
+
+      message: ["", "",],
+      wg_link: "",
+    },
 
   ///////////////////POSTER COMPETITION//////////////////////////////////////////////////////
   
@@ -797,6 +824,7 @@ const list = [
 
     message: ["", "","", ""],
     wg_link: "",
+    genre:"Team"
   },
   /////////////////////////////////////STANDUP COMEDY///////////////////////////////////
 
