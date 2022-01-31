@@ -17,7 +17,7 @@ import Krishna from "./images/krish.jpeg";
 import Mansi from "./images/man.jpeg";
 
 import blogPoster from "./images/blogPoster.png";
-////////////////
+////////////////TAMBOLA////////////////////////
 const list = [
   {
     poster: poster,
@@ -37,15 +37,14 @@ const list = [
     ],
     name: ["TAMBOLA"],
     title: "TAMBOLA",
-    coordinators: ["Default", "Default", "Default"],
-    Fcoordinators: [],
-    imgsrc: [def, def, def],
-    insta: [
-      "https://www.instagram.com/bhadouria_leeza/",
-      "https://www.instagram.com/shreya_prabhas/",
-    ],
-    link_id: ["a", "a"],
+    insta: ["", ""],
+    imgsrc: [def, def],
+    link_id: ["", ""],
+    coordinators: ["Prashant Kumar", "Riddhi Agrawal"],
+    message: ["", ""],
+    wg_link: "",
   },
+  /////////////////////SAMVAAD////////////////////////////
   {
     ///value defualt if missing
 
@@ -78,6 +77,7 @@ const list = [
     link_id: ["a", "a"],
     wg_link: "",
   },
+  /////////////////VALORANT////WORKING//////////
   {
     ///value defualt if missing
 
@@ -243,34 +243,37 @@ const list = [
       "9. Only single entry is allowed.",
       "10. The decision of judges will be final and binding.",
     ],
-    name: ["JASHN-E-NAZM"],
-    title: "JASHN-E-NAZM (A Poetry Competition)",
+    name: ["JASHN-E-NAZM (A Poetry Competition)"],
+    title: "JASHN-E-NAZM",
     coordinators: [
       "Muskan Kushwah",
-      "Muskan Kushwah",
-      "Muskan Kushwah",
-      "Shrawasti Mishra",
-      "Shrawasti Mishra",
-      "Manisha Singh",
+      "Nidhi Saxna",
+      "Mahima Khalkho",
+      "Kanishka Bhargava",
       "Manisha Singh",
     ],
     insta: [
-      "https://www.instagram.com/suseemvikramm/",
-      "https://www.instagram.com/anirudh_tn/",
-      "https://www.instagram.com/radhikabegwani/",
-      "https://www.instagram.com/n_u_t_c_a_s_e/",
+      "",
+      "",
+      "",
+      "",
+      "",
+      
+      
     ],
-    imgsrc: [def, def, def, def],
-    link_id: ["", "", "", ""],
+    imgsrc: [def, def, def, def,def],
+    link_id: ["", "", "", "",""],
 
     message: [
-      "In my opinion keeping a technical blog can be a great way of documenting your growth as a developer and I believe that great technical blogs are treasure chests hidden deep within the depths of the internet ocean.",
-      "I'm well pleased to be the part of organizing team and to work with the core team of BLOG'OID and I hope we all leave a Lasting Impression to all the participants...Thank you!!",
-      "Tech! For me its the most profitable and growing niche. It could be your companion or even your rival sometimes. But what if i tell you that you could mend the gap between these two?! Amichroma’2022 brings you the precise opportunity which would not only help you clear your minds but also form the professional career perspectives.",
-      "Creative minds can be found in any field of endeavour, writing can sharpen your mind and show you the depths of language, come join us as we embark on a quest to test our creativity, with a technical blogging contest here at amichroma 2k22",
+      "",
+      "",
+      "",
+      "",
     ],
     wg_link: "",
   },
+  /////////////////////comedy circus/////////////////////
+  
   {
     ///value defualt if missing
 
@@ -284,15 +287,13 @@ const list = [
     title: "COMEDY CIRCUS",
     coordinators: ["Akshat Nair", "Sonam Barnwal"],
     insta: [
-      "https://www.instagram.com/suseemvikramm/",
-      "https://www.instagram.com/anirudh_tn/",
-      "https://www.instagram.com/radhikabegwani/",
-      "https://www.instagram.com/n_u_t_c_a_s_e/",
+      "",
+      "",
+      
     ],
     imgsrc: [def, def],
     link_id: [
-      "https://www.linkedin.com/in/suseemvikram",
-      "https://www.linkedin.com/in/anirudh-nair-84675b201",
+      
       "https://www.linkedin.com/in/radhika-begwani-5196b2204",
       "https://www.linkedin.com/in/aman-dixit-1189141b8",
     ],
@@ -302,7 +303,7 @@ const list = [
   },
   {
     ///value defualt if missing
-
+/////////////////////TATOO ARTIST////////////////////////
     poster: poster,
     rules: [
       "1. The tattoo has to be made either on the participant hand or on any other reference candidate hand (but the other candidate on whom the tattoo is gonna made will not considered in the competition, only the candidate who is making the tattoo will be act as a participant)",
@@ -312,14 +313,14 @@ const list = [
       "5. In case of any discrepancies, the decision of judges will be final and binding.",
     ],
     name: ["TATOO ARTIST"],
-    title: "TATOO ARTIST",
+    title: "TATTOO ARTISTS",
     coordinators: ["Anshika Dwivedi", "Varuna Rajput"],
     insta: ["", ""],
     imgsrc: [def, def],
-    link_id: [""],
+    link_id: [" "],
 
-    message: ["", "", "", ""],
-    wg_link: "",
+    message: [" ", " ",],
+    wg_link: " ",
   },
   {
     ///value defualt if missing
@@ -377,7 +378,7 @@ const list = [
     ],
 
     name: ["MODELING COMPETITION"],
-    title: "MODELING COMPETITION",
+    title: "MODELING",
     coordinators: [
       "Mishika Singh",
       "Nanshi Singh",
@@ -386,7 +387,7 @@ const list = [
     ],
     insta: ["", "", "", ""],
     imgsrc: [def, def, def, def],
-    link_id: ["", "", "", ""],
+    link_id: [" ", " ", " ", " "],
 
     message: ["", "", "", ""],
     wg_link: "",
@@ -423,9 +424,7 @@ const list = [
   },
 
   //////////////////////////////////////////THE MIND MATRIX///////////////////////////
-  {
-    poster: poster,
-    rules: [
+  
       {
         poster: poster,
         rules: [
@@ -443,22 +442,19 @@ const list = [
           "8. Rules & steps of game play will be communicated before every round",
         ],
 
-        name: ["ACHINTYA"],
-        title: "ACHINTYA: THE MIND MATRIX",
+        name: ["ACHINTYA: THE MIND MATRIX"],
+        title: "ACHINTYA",
         coordinators: ["Akriti Bhatt", "Himalaya Bansal", "Soumitra Walambe"],
-        insta: ["", "", ""],
+        insta: [" ", " ", " "],
         imgsrc: [def, def, def],
         link_id: ["", "", "", ""],
 
         message: ["", "", ""],
         wg_link: "",
       },
-    ],
-  },
+   
   //////////////////////BUSINESS QUIZ///////////////////////////////
-  {
-    poster: poster,
-    rules: [
+  
       {
         poster: poster,
         rules: [
@@ -486,12 +482,9 @@ const list = [
         message: ["", "", "", "", "", ""],
         wg_link: "",
       },
-    ],
-  },
+    
   /////////////////BUSINESS PLAN/////////////////////////////
-  {
-    poster: poster,
-    rules: [
+  
       {
         poster: poster,
         rules: [
@@ -501,8 +494,8 @@ const list = [
           "4. The panel members/judges/faculty coordinators will make the final selection on the basis of presentation and innovation.",
         ],
 
-        name: ["BUSINESS PLAN"],
-        title: "BUSINESS PLAN COMPETITION",
+        name: ["BUSINESS PLAN COMPETITION"],
+        title: "BUSINESS PLAN",
         coordinators: [
           "Poorvanshi Gupta ",
           " Palak dwivedi",
@@ -518,12 +511,9 @@ const list = [
         message: ["", "", "", "", "", ""],
         wg_link: "",
       },
-    ],
-  },
+    
   /////////////////////ROLE MODEL ANALYSIS ////////////////////////////
-  {
-    poster: poster,
-    rules: [
+  
       {
         poster: poster,
         rules: [
@@ -543,23 +533,18 @@ const list = [
         message: ["", ""],
         wg_link: "",
       },
-    ],
-  },
+    
   /////////////////////////////MEMEGRAM///////////////////////
   {
     poster: poster,
-    rules: [
-      {
-        poster: poster,
-        rules: [
-          " 1.Participants should focus on originality rather than copying",
+    rules: [" 1.Participants should focus on originality rather than copying",
           "2.Video content should be 30-45 secs (maximum).",
           "3.Content should be engaging and interesting ",
           "4. There should be no offense in your content, no abusive language, and no dark jokes. Otherwise, you will be disqualified from the event",
         ],
 
-        name: ["MEMEGRAM"],
-        title: "MEMEGRAM",
+        name:"MEMEGRAM",
+        title:"MEMEGRAM",
         coordinators: [
           " Deepanjali Upadhyay",
           "Radhika Begwani ",
@@ -573,29 +558,26 @@ const list = [
         message: ["", "", "", ""],
         wg_link: "",
       },
-    ],
-  },
+    
   ///////////////SHORT MOVIE MAKING COMPETITION///////////////////////////
-  {
-    poster: poster,
-    rules: [
+ 
       {
         poster: poster,
         rules: [
           " 1.There shall be a team of 3- 5 Members",
-          "2.There shall be a team of 3- 5 Members",
+          "2.The duration of the Movie should not be more than 3-5 minutes",
           "3.Themes: Human vs Robots /Fantasy World vs Realistic World/Student Life/ Digital India/ Road Safety/Green Computing /Atam Nirbhar Bharat/Beti Bachao/New Education Policy. (Documentary/Inspirational)",
           "4. A single person can also participate. A movie can be made by photographs and short video clips.",
           "5.In case of any discrepancies, the decision of judges will be final and binding",
         ],
 
-        name: ["SHORT MOVIE"],
-        title: "SHORT MOVIE MAKING COMPETITION",
+        name: ["SHORT MOVIE MAKING COMPETITION"],
+        title: "SHORT MOVIE",
         coordinators: [
-          " Deepanjali Upadhyay",
-          "Radhika Begwani ",
-          "Yaman Jain",
-          " Mukul Khandelwal",
+          " Rajdeep Choudhary",
+          "Gun Gupta",
+          "Ayushi Baijal",
+          "Khushi Yadav",
         ],
         insta: ["", "", "", ""],
         imgsrc: [def, def, def, def],
@@ -604,12 +586,10 @@ const list = [
         message: ["", "", "", ""],
         wg_link: "",
       },
-    ],
-  },
+    
   /////////////////SEREIS QUIZ////////////////////////////
-  {
-    poster: poster,
-    rules: [
+  
+    
       {
         poster: poster,
         rules: [
@@ -630,14 +610,11 @@ const list = [
         message: ["", ""],
         wg_link: "",
       },
-    ],
-  },
+    
   ////////////////////////////////CODE SNIPPET///////////////////////////////////
 
   {
-    poster: poster,
-    rules: [
-      {
+    
         poster: poster,
         rules: [
           " 1.Individual event",
@@ -646,8 +623,8 @@ const list = [
           "4. Coding can be done in any language on any platform",
           "5. Coding can be done in any language on any platform",
         ],
-        name: ["CODE SNIPPET"],
-        title: "CODE SNIPPET CONTEST",
+        name: ["CODE SNIPPET CONTEST"],
+        title: "CODE SNIPPET",
         coordinators: [
           "Ayushi Rai ",
           "Deepak Thakur ",
@@ -661,13 +638,11 @@ const list = [
         message: ["", "", "", ""],
         wg_link: "",
       },
-    ],
-  },
+    
 
   ///////////////////POSTER COMPETITION//////////////////////////////////////////////////////
-  {
-    poster: poster,
-    rules: [
+  
+    
       {
         poster: poster,
         rules: [
@@ -680,9 +655,9 @@ const list = [
           "7.Students From Any Stream (Arts, Science, Engg., Management Etc.) Can Participate In  This Competition",
           "8.In Case Of Any Discrepancies, The Decision Of Judges Will Be Final And Binding",
         ],
-        name: ["CODE SNIPPET"],
-        title: "CODE SNIPPET CONTEST",
-        coordinators: ["Mayank Chahar ", "Kuldeep Gupta"],
+        name: ["POSTER COMPETITION"],
+        title:"POSTER DESIGN",
+        coordinators: ["Mayank Chahar", "Kuldeep Gupta"],
         insta: ["", ""],
         imgsrc: [def, def],
         link_id: ["", ""],
@@ -690,10 +665,10 @@ const list = [
         message: ["", ""],
         wg_link: "",
       },
-    ],
-  },
+    
 
-  ////////////////////////////SSB QUIZ//////////////////////////////////////
+
+  ////////////////////////////CHAL CHITRA//////////////////////////////////////
   {
     poster: poster,
     rules: [
@@ -706,7 +681,7 @@ const list = [
       "7.There will be no restriction on the use of technology; one can use cell phone or DSLR as  per their discretion",
     ],
     name: ["Online Film Making Competition- “CHAL CHITRA” "],
-    title: "CHAL CHITRA ",
+    title: "CHAL CHITRA",
     coordinators: [
       "Priyanshu Mishra ",
       "Mansi Dixit",
@@ -733,8 +708,8 @@ const list = [
       "7.No post processing would be accepted by any mean what so ever",
       "8.Adjustment related to lights and contrasts are allowed given the condition that original sense of image is not lost",
     ],
-    name: ["Chayachitra: Photography Competition"],
-    title: "Photography",
+    name: ["CHAYACHITRA: Photography Competition"],
+    title: "PHOTOGRAPHY",
     coordinators: ["Jayesh ", "Rishav Singh Tomar"],
     insta: ["", ""],
     imgsrc: [def, def],
@@ -777,9 +752,9 @@ const list = [
       " 1.Single participation or group participation",
       "2.The theme of the selfie will be disclosed to the registered members"
     ],
-    name: ["Online Film Making Competition- “CHAL CHITRA” "],
-    title: "CHAL CHITRA ",
-    coordinators: ["Prena Singh  ", "PVandana gabra "],
+    name: ["SELFIE CONTEST"],
+    title: "SELFIE CONTEST",
+    coordinators: ["Prena Singh", "PVandana gabra"],
     insta: ["", ""],
     imgsrc: [def, def],
     link_id: ["", ""],
@@ -806,7 +781,7 @@ const list = [
       "6. In case of any discrepancies, the decision of judges will be final and binding"
     ],
     name: ["90’S GAME ZONE WITH KAI PO CHE"],
-    title: "90’S GAME ZONE ",
+    title: "90’S GAME ZONE",
     coordinators: ["Arya Jain ", "Vikram Gupta ","Rishab Pathak","Vandna Gabra "],
     insta: ["", "","", ""],
     imgsrc: [def, def,def,def],
@@ -830,7 +805,7 @@ const list = [
       "6. Certificate would be given to the winners/runners and all participants"
     ],
     name: ["STANDUP COMEDY"],
-    title: "STANDUP COMEDY ",
+    title: "standup comedy",
     coordinators: ["Rohit Pathak ", "Mudit Goswami "],
     insta: ["", "",],
     imgsrc: [def, def],
@@ -856,8 +831,8 @@ const list = [
     "6.The poems will be judged on the basis of Content, Originality, its conformance to the “ras” specified, creativity of Title, overall impact",
     "7. Certificate would be given to the winners/runners and all participants"
   ],
-  name: ["STANDUP COMEDY"],
-  title: "standup comedy",
+  name: ["POETRY"],
+  title: "POETRY",
   coordinators: ["Ayushman Pyasi ", "Vibhu Sharma"],
   insta: ["", "",],
   imgsrc: [def, def],
@@ -873,7 +848,50 @@ const list = [
 
 
 
-  /////////////////////////////////////////////////
+  //////////////////////////EXTEMPORE///////////////////////
+  {
+    poster: poster,
+    rules: [
+      " 1. Participant has to speak only in English. ",
+      "2 Maximum time limit to think over the topic will be 2 minutes and the maximum time for speech will be 5 minutes.",
+      "3 The participant will be allowed to change the topic only once if not comfortable with the previous topic",
+      "4.Participants will not be allowed to take any paper or material with him or her during the speech",
+      "5. The participant has to choose one of the five listed domains prior to the competition: Data science,Cyber security,Artificial intelligence, Internet of Things","Wireless networks",
+      "6.Bunch of the topics will be given to select any one randomly",
+      "7.He/she will be given 2 minutes prior to the speech to think over the topic"
+    ],
+    name: ["TOAST-WITH-CONFIDENCE: AN EXTEMPORE COMPETITION"],
+    title: "EXTEMPORE",
+    coordinators: ["Aditya Khare ", "Aditya Narayan Upadhyay","Akanksha Srivastava","Harshita Sharma"],
+    insta: ["", "",],
+    imgsrc: [def, def,def,def],
+    link_id: ["", ""],
+  
+    message: ["", ""],
+    wg_link: "",
+  },
+  ///////////////////////////SSB QUIZ/////////////////////////////////
+  {
+    poster: poster,
+    rules: [
+      "Total No. of Question: 40 ( Based on the SSB Preparation)",
+      "2 . Total Time Given: 25-30 minutes",
+      "3 If the two participants get same marks then the participant who has given answers in least time will be winner.",
+      "4.If again the two participants have given answers within same time duration then there will be a rapid fire round where each candidate will be asked 5-6 questions and the participant who will answer maximum question will be winner",
+      "5. There will be I, II & III winner",
+      
+    ],
+    name: ["SSB QUIZ"],
+    title: "SSB QUIZ",
+    coordinators: ["Kajal Mishra ", "Garima Srivastava"],
+    insta: ["", "",],
+    imgsrc: [def, def],
+    link_id: ["", ""],
+  
+    message: ["", ""],
+    wg_link: "",
+  },
+
 ];
 
 export { list };

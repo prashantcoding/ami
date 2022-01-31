@@ -3,7 +3,7 @@ import { film } from "./imgimports";
 const event= [
     {
         "id":1,
-        "title":" POETRY",
+        "title":"POETRY",
         "imgsrc":poetry, 
         "category":'arts',
     },
@@ -27,7 +27,7 @@ const event= [
     },
     {
         "id":5,
-        "title":" SELFIE CONTEST",
+        "title":"SELFIE CONTEST",
         "imgsrc":selfie, 
         "category":'social',
     },
@@ -39,7 +39,7 @@ const event= [
     },
     {
         "id":7,
-        "title":"PHOTOGRAPHY ",
+        "title":"PHOTOGRAPHY",
         "imgsrc":photography, 
         "category":'social',
     },
@@ -57,7 +57,7 @@ const event= [
     },
     {
         "id":10,
-        "title":"POSTER DESIGN ",
+        "title":"POSTER DESIGN",
         "imgsrc":poster, 
         "category":'social',
     },
@@ -93,7 +93,7 @@ const event= [
     },
     {
         "id":16,
-        "title":" MEMEGRAM",
+        "title":"MEMEGRAM",
         "imgsrc":meme, 
         "category":'enter',
     },
