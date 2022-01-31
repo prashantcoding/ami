@@ -45,7 +45,7 @@ const event= [
     },
     {
         "id":8,
-        "title":"FILM MAKING",
+        "title":"CHAL CHITRA",
         "imgsrc":mov, 
         "category":'film',
     },
@@ -69,13 +69,13 @@ const event= [
     },
     {
         "id":12,
-        "title":" CODE SNIPPET ",
+        "title":"CODE SNIPPET",
         "imgsrc":codesnippet, 
         "category":'coding',
     },
     {
         "id":13,
-        "title":" EXTEMPORE ",
+        "title":"EXTEMPORE",
         "imgsrc":extempore, 
         "category":'edu',
     },
@@ -87,7 +87,7 @@ const event= [
     },
     {
         "id":15,
-        "title":" SHORT MOVIE",
+        "title":"SHORT MOVIE",
         "imgsrc":shortmovie, 
         "category":'film',
     },
@@ -147,7 +147,7 @@ const event= [
     },
     {
         "id":25,
-        "title":" DANCE FLOOR",
+        "title":"DANCE FLOOR",
         "imgsrc":dance, 
         "category":'enter',
     },

@@ -3,7 +3,7 @@ import styles from "./Gallery.module.css";
 const VedioCard = (props) => {
     console.log(props.id);
   return (<div style={{'margin-left':"2%"}}>
-    <iframe
+    <iframe style={{"margin":'1%'}}
       className={styles.vedio_S}
       src={props.id}
       title="YouTube video player"
