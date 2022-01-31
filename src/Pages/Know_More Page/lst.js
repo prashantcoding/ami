@@ -15,7 +15,10 @@ import Rahul from "./images/rah.jpeg";
 import Utkarsh from "./images/ut.jpeg";
 import Krishna from "./images/krish.jpeg";
 import Mansi from "./images/man.jpeg";
-
+import radhika from "./images/radhika.jpeg"
+import yaman from "./images/yaman.jpeg"
+import Deepanjali from "./images/deepanjali.jpeg"
+import Mukul from './images/mukul.jpeg'
 import blogPoster from "./images/blogPoster.png";
 ////////////////TAMBOLA////////////////////////
 const list = [
@@ -182,6 +185,10 @@ const list = [
       "http://www.linkedin.com/in/mansi-tripathi-b4035b20b",
     ],
     wg_link: "https://chat.whatsapp.com/IFbPe4vXserEmcbOJLF0cD",
+    genre:"Team",
+    
+
+
   },
   {
     ///value defualt if missing
@@ -552,7 +559,7 @@ const list = [
           " Mukul Khandelwal",
         ],
         insta: ["", "", "", ""],
-        imgsrc: [def, def, def, def],
+        imgsrc: [Deepanjali, radhika, yaman, Mukul],
         link_id: ["", "", "", ""],
 
         message: ["", "", "", ""],
@@ -761,6 +768,7 @@ const list = [
 
     message: ["", ""],
     wg_link: "",
+    genre:"Team",
   },
 
 

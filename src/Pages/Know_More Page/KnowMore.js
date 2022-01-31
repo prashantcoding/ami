@@ -13,6 +13,8 @@ import CategoryBar from "../../Component/CategoryBar";
 // import Alert from "../../Component/Alert/Alert";
 // import { motion } from 'framer-motion';
 import DisplayImg from "./DisplayImg";
+import JoinTeam from "../../Component/Register/Createam";
+import Createam from "../../Component/Register/Createam";
 
 const KnowMore = () => {
   const title = localStorage.getItem("event");
@@ -43,6 +45,7 @@ const KnowMore = () => {
                   />
                 </div>
                 <Register title={items.title} />
+                {items.genre==="Team"&&<Createam title={items.title}/>}
               </>
             )
         )}
