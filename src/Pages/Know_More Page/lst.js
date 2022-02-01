@@ -36,6 +36,8 @@ import Gun from "./images/GG.jpeg";
 import short_movie from "./images/short_movie.jpg";
 import varuna from "./images/varuna.jpeg";
 import anshika from "./images/anshika.jpeg"
+import ayushman from "./images/ayushman.jpeg"
+import vibhu from "./images/vibhu.jpeg"
 ////////////////TAMBOLA////////////////////////
 const list = [
   {
@@ -860,10 +862,10 @@ const list = [
     title: "POETRY",
     coordinators: ["Ayushman Pyasi ", "Vibhu Sharma"],
     insta: ["", ""],
-    imgsrc: [],
+    imgsrc: [ayushman,vibhu],
     link_id: ["", ""],
 
-    message: ["", ""],
+    message: ["The Poetry Competition is going to be organised by AMITY LAW SCHOOL where we look forward to receive your self composed poetry in Hindi/English language. So come and speak your heart out in the form of your poem.", ""],
     wg_link: "",
   },
 

@@ -2,7 +2,7 @@ const UserEvents=require('../Models/UserEvents')
 const {Op}=require("sequelize")
 const User=require('../Models/UserModel')
 
-
+var path=require("path");
 //////////////////Mail///////////
 
 var nodemailer = require('nodemailer');
@@ -19,7 +19,13 @@ var mailOptions = {
   from: 'prashant.teachies@gmail.com',
   to: `${to}`,
   subject: 'thanks for registration',
-  text: `{Thank you for registring in ${event}}`
+  text: `Thank you for registring in ${event}`,
+  attachments: [{
+    filename: 'Rule_Book.pdf',
+    path:path.join(__dirname,'/Rule_Book.pdf'),
+    contentType: 'application/pdf',
+    
+  }],
 };
 
 transporter.sendMail(mailOptions, function(error, info){
