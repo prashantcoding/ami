@@ -21,7 +21,7 @@ function SignIn(props) {
             },
             
           }).then(async(res) => {
-            
+            console.log(res)
            await localStorage.setItem('Auth_token',res.data.Auth_token)
             history.push('/');
           })

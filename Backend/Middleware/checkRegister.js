@@ -21,7 +21,7 @@ const checkRegister=async(req,res,next)=>{
        }
      catch (error) {
         console.log(error);
-        res.send({error:"please login "});
+        res.send("please login ");
     }}
   
 

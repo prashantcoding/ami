@@ -5,14 +5,19 @@ var transporter = nodemailer.createTransport({
   auth: {
     user: 'Prashant.teachies@gmail.com',
     pass: 'jqljmqcdiotionzw'
-  }
+  },
+  pool:true
 });
 
 var mailOptions = {
   from: 'prashant.teachies@gmail.com',
   to: to,
   subject: 'thanks for registration',
-  text: `{Thank you for registring in ${event}}`
+  text: `{Thank you for registring in ${event}}`,
+  attachment:{
+    filename:"RuleBook",
+    path:'./Rule_Book.pdf'
+  }
 };
 
 transporter.sendMail(mailOptions, function(error, info){

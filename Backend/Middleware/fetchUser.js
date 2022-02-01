@@ -1,5 +1,5 @@
 var jwt=require('jsonwebtoken');
-const fetchuser=(req,res,next)=>{
+const fetchuser=async(req,res,next)=>{
     
     //get the user from the jwt token and appen id to usr applicaiton
     // console.log("FetchRunning");
@@ -10,13 +10,13 @@ const fetchuser=(req,res,next)=>{
         res.send({error:"please login "});
     }
     try {
-        const data =jwt.verify(token,process.env.JWT_SECRET);
+        const data =await jwt.verify(token,process.env.JWT_SECRET);
             
         req.body.id=data.user.id;
         next();
     } catch (error) {
        
-        res.send({error:"please login "});
+        res.send("please login ");
     }
     
 }

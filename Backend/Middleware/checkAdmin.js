@@ -14,7 +14,7 @@ const fetchuser=async(req,res,next)=>{
     try {
         // console.log("Middleware Admin RUnning");
         // console.log(req.body);
-        const data =jwt.verify(token,process.env.JWT_SECRET)
+        const data = await jwt.verify(token,process.env.JWT_SECRET)
         const id=data.user.id;
         const usr=await User.findOne({where:{id:id}});
         
@@ -24,7 +24,7 @@ const fetchuser=async(req,res,next)=>{
         next();}
     } catch (error) {
         // console.log(error);
-        res.status(401).send({error:"please login "});
+        res.status(401).send("please login ");
     }}
     
 }

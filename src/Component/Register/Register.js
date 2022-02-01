@@ -5,19 +5,16 @@ import Alert from '../Alert/Alert';
 
 const Register = (props) => {
   const [alert, setalert] = useState(false);
-    const [alert_data,setalert_data]=useState('');
-    const get_alert=(data)=>{
-      console.log("get_alert is reaching here");
-      setalert(true)
-      setalert_data(data);
-      
-    }
+  const [data,setdata]=useState('');
+   
     const show=(value)=>{
         setalert(value);
     }
     const[num,setnum]=useState('')
     const handleChange=async(e)=>{ 
+      e.preventDefault();
       console.log(num);
+      
       setnum(e.target.value);
       
     }
@@ -32,15 +29,18 @@ const Register = (props) => {
           },{
             headers: {'Auth_token':localStorage.getItem('Auth_token')},
           })
-          .then((response)=>{
+          .then(async(response)=>{
               console.log(response)
-               setalert_data(response.data);
               setalert(true);
+              setdata(response.data)
+              
           }
           )
           .catch(function (error) {
-            setalert_data(error.data);
-              setalert(true);
+            console.log(error);
+            
+            setdata(error);
+            setalert(true);
             
           });
         }
@@ -48,7 +48,7 @@ const Register = (props) => {
   return (
     <>
     <div className={styles.alert_box}>
-    {alert&&<Alert data={alert_data} disp={show} />}
+    {alert&&<Alert data={data} disp={show} />}
     </div>
     <div className={styles.buttonbox}>
     <input type="text" onChange={handleChange} className={styles.enter} placeholder="Enter Phone Number "></input>
