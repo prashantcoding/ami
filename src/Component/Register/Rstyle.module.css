@@ -1,12 +1,27 @@
 .buttonbox{
-    display: flex;
-    justify-content: center;
+   display: inline;
+    
 }
 .button_register{
     border-radius: 21px 21px 21px 21px;
     padding: 10px 20px;
     border:transparent;
     background-color: #2A9FD6;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+   cursor: pointer;
+}
+.enter{
+    border-radius: 21px 21px 21px 21px;
+    padding: 10px 20px;
+    border:transparent;
+    background-color:white;
+    outline:none;
     margin:auto;
     margin-bottom: 3rem;
     text-decoration: none;

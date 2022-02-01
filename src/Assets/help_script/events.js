@@ -3,7 +3,7 @@ import { film } from "./imgimports";
 const event= [
     {
         "id":1,
-        "title":" POETRY",
+        "title":"POETRY",
         "imgsrc":poetry, 
         "category":'arts',
     },
@@ -27,7 +27,7 @@ const event= [
     },
     {
         "id":5,
-        "title":" SELFIE CONTEST",
+        "title":"SELFIE CONTEST",
         "imgsrc":selfie, 
         "category":'social',
     },
@@ -39,13 +39,13 @@ const event= [
     },
     {
         "id":7,
-        "title":"PHOTOGRAPHY ",
+        "title":"PHOTOGRAPHY",
         "imgsrc":photography, 
         "category":'social',
     },
     {
         "id":8,
-        "title":"FILM MAKING",
+        "title":"CHAL CHITRA",
         "imgsrc":mov, 
         "category":'film',
     },
@@ -57,7 +57,7 @@ const event= [
     },
     {
         "id":10,
-        "title":"POSTER DESIGN ",
+        "title":"POSTER DESIGN",
         "imgsrc":poster, 
         "category":'social',
     },
@@ -69,13 +69,13 @@ const event= [
     },
     {
         "id":12,
-        "title":" CODE SNIPPET ",
+        "title":"CODE SNIPPET",
         "imgsrc":codesnippet, 
         "category":'coding',
     },
     {
         "id":13,
-        "title":" EXTEMPORE ",
+        "title":"EXTEMPORE",
         "imgsrc":extempore, 
         "category":'edu',
     },
@@ -87,13 +87,13 @@ const event= [
     },
     {
         "id":15,
-        "title":" SHORT MOVIE",
+        "title":"SHORT MOVIE",
         "imgsrc":shortmovie, 
         "category":'film',
     },
     {
         "id":16,
-        "title":" MEMEGRAM",
+        "title":"MEMEGRAM",
         "imgsrc":meme, 
         "category":'enter',
     },
@@ -147,7 +147,7 @@ const event= [
     },
     {
         "id":25,
-        "title":" DANCE FLOOR",
+        "title":"DANCE FLOOR",
         "imgsrc":dance, 
         "category":'enter',
     },

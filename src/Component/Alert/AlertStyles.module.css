@@ -2,11 +2,12 @@
   padding: 10px;
   background-color: greenyellow;
   color: black;
-  /* width: 50vw; */
+  width: 50vw; 
   position: relative;
-  /* justify-content: space-evenly; */
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+   justify-content: space-evenly; 
+  display: flex; 
+  flex-wrap: wrap; 
+  margin:auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 21px 21px 21px 21px;
   

@@ -8,8 +8,9 @@ function SignIn(props) {
    let history=useHistory();
     const [status, setstatus] = useState('');
     const responseGoogle = async(response) => {
-        
+        console.log(response);
        axios({
+          
             method: "post",
             url: "http://localhost:5000/api/users/register",
             
@@ -20,7 +21,7 @@ function SignIn(props) {
             },
             
           }).then(async(res) => {
-            
+            console.log(res)
            await localStorage.setItem('Auth_token',res.data.Auth_token)
             history.push('/');
           })
