@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Tstyle.module.css'
 import inst from './insta.png';
-import ld from './ld.png'
-import { Link } from 'react-router-dom';
-import { Redirect, Router, useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+// import ld from './ld.png'
+// import { Link } from 'react-router-dom';
+// import { Router, useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Testimonial = (props) => {
   
@@ -32,7 +32,7 @@ const Testimonial = (props) => {
             <div className={styles.socials}>
                <a href={props.insta} ><img  src={inst} className={styles.icons}  /></a>
               
-                <img  className={styles.icons} src={ld}/>
+               
             </div>
     </div>
     

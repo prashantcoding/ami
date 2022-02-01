@@ -15,11 +15,27 @@ import Rahul from "./images/rah.jpeg";
 import Utkarsh from "./images/ut.jpeg";
 import Krishna from "./images/krish.jpeg";
 import Mansi from "./images/man.jpeg";
-import radhika from "./images/radhika.jpeg"
-import yaman from "./images/yaman.jpeg"
-import Deepanjali from "./images/deepanjali.jpeg"
-import Mukul from './images/mukul.jpeg'
+import radhika from "./images/radhika.jpeg";
+import yaman from "./images/yaman.jpeg";
+import Deepanjali from "./images/deepanjali.jpeg";
+import Mukul from "./images/mukul.jpeg";
 import blogPoster from "./images/blogPoster.png";
+import ccposter from "./images/ccposter.jpeg";
+import sonam from "./images/sonam.jpeg";
+import akshat from "./images/akshat.jpeg";
+import memeposter from "./images/memeposter.png";
+import anirudh_nair from "./images/anirudh_nair.jpeg";
+import sussem from "./images/sussem.jpeg";
+import aman from "./images/aman_dixit.jpeg";
+import Rajdeep from "./images/RC.jpeg";
+import Khushi from "./images/KY.jpeg";
+import Kajal from "./images/KJ.jpeg";
+import adarsh from './images/AR.JPEG'
+import Ayushi from "./images/AB.jpeg";
+import Gun from "./images/GG.jpeg";
+import short_movie from "./images/short_movie.jpg";
+import varuna from "./images/varuna.jpeg";
+import anshika from "./images/anshika.jpeg"
 ////////////////TAMBOLA////////////////////////
 const list = [
   {
@@ -79,7 +95,7 @@ const list = [
     ],
     link_id: ["a", "a"],
     wg_link: "",
-    genre:"TEAM"
+    genre: "TEAM",
   },
   /////////////////VALORANT////WORKING//////////
   {
@@ -186,10 +202,7 @@ const list = [
       "http://www.linkedin.com/in/mansi-tripathi-b4035b20b",
     ],
     wg_link: "https://chat.whatsapp.com/IFbPe4vXserEmcbOJLF0cD",
-    genre:"Team",
-    
-
-
+    genre: "Team",
   },
   {
     ///value defualt if missing
@@ -218,7 +231,7 @@ const list = [
       "https://www.instagram.com/radhikabegwani/",
       "https://www.instagram.com/n_u_t_c_a_s_e/",
     ],
-    imgsrc: [def, def, def, def],
+    imgsrc: [sussem, anirudh_nair, radhika, aman],
     link_id: [
       "https://www.linkedin.com/in/suseemvikram",
       "https://www.linkedin.com/in/anirudh-nair-84675b201",
@@ -260,32 +273,19 @@ const list = [
       "Kanishka Bhargava",
       "Manisha Singh",
     ],
-    insta: [
-      "",
-      "",
-      "",
-      "",
-      "",
-      
-      
-    ],
-    imgsrc: [def, def, def, def,def],
-    link_id: ["", "", "", "",""],
+    insta: ["", "", "", "", ""],
+    imgsrc: [def, def, def, def, def],
+    link_id: ["", "", "", "", ""],
 
-    message: [
-      "",
-      "",
-      "",
-      "",
-    ],
+    message: ["", "", "", ""],
     wg_link: "",
   },
   /////////////////////comedy circus/////////////////////
-  
+
   {
     ///value defualt if missing
 
-    poster: poster,
+    poster: ccposter,
     rules: [
       "1)  Participant will be provided with the names of actor, actresses or comedians for the mimicry",
       "2)Participant will be provided with the names of actor, actresses or comedians for the mimicry",
@@ -294,24 +294,16 @@ const list = [
     name: ["COMEDY CIRCUS"],
     title: "COMEDY CIRCUS",
     coordinators: ["Akshat Nair", "Sonam Barnwal"],
-    insta: [
-      "",
-      "",
-      
-    ],
-    imgsrc: [def, def],
-    link_id: [
-      
-      "https://www.linkedin.com/in/radhika-begwani-5196b2204",
-      "https://www.linkedin.com/in/aman-dixit-1189141b8",
-    ],
+    insta: ["", ""],
+    imgsrc: [akshat, sonam],
+    link_id: ["https://www.instagram.com/akshat.nair22/", ""],
 
     message: ["", "", "", ""],
     wg_link: "",
   },
   {
     ///value defualt if missing
-/////////////////////TATOO ARTIST////////////////////////
+    /////////////////////TATOO ARTIST////////////////////////
     poster: poster,
     rules: [
       "1. The tattoo has to be made either on the participant hand or on any other reference candidate hand (but the other candidate on whom the tattoo is gonna made will not considered in the competition, only the candidate who is making the tattoo will be act as a participant)",
@@ -323,11 +315,11 @@ const list = [
     name: ["TATOO ARTIST"],
     title: "TATTOO ARTISTS",
     coordinators: ["Anshika Dwivedi", "Varuna Rajput"],
-    insta: ["", ""],
-    imgsrc: [def, def],
+    message: ["Tattoos ..word that brings excitement...what if I say you can experience this without having a permanent tattoo and offcourse without begging for the permission from parents....I am Anshika Dwivedi from Amity School of Fashion Design & Technology. The experience i had last year has made me super excited.", "“Just like fashion, tattoo trends have a trickle-down cycle,” tattooist Adam Villani tells StyleCaster. So while a few new trends will enter the market in 2020, some of 2019's favorite techniques will continue to reign suprem. It's the same way people who wear the same type of clothes as each other will say that someone who dresses just like them has cool style,"],
+    imgsrc: [anshika, varuna],
     link_id: [" "],
 
-    message: [" ", " ",],
+   insta:["https://instagram.com/rudra__anshika__?utm_medium=copy_linkva","https://instagram.com/_enchanting_creations?utm_medium=copy_link"],
     wg_link: " ",
   },
   {
@@ -343,7 +335,7 @@ const list = [
     //////////////////////WHELL N FUN////////////////////////////
     name: ["WHEEL N FUN"],
     title: "WHEEL N FUN",
-    coordinators: ["Anshika Dwivedi", "Varuna Rajput"],
+    coordinators: ["Ananya Mudgal ", " Mansi Kushwaha"],
     insta: ["", "", "", ""],
     imgsrc: [def, def],
     link_id: ["", "", "", ""],
@@ -421,7 +413,7 @@ const list = [
       "Mishika Singh",
       "Tanishka Khandelwa",
       "Nancy Singh",
-      "Nancy Singh",
+      "Kajal Bhadauria",
     ],
     insta: ["", "", "", ""],
     imgsrc: [def, def, def, def],
@@ -429,278 +421,280 @@ const list = [
 
     message: ["", "", "", ""],
     wg_link: "",
-    genre:"Team"
+    genre: "Team",
   },
 
   //////////////////////////////////////////THE MIND MATRIX///////////////////////////
-  
-      {
-        poster: poster,
-        rules: [
-          "1. Competition is open for all.",
-          "2. There shall be individual participation.",
-          "3. The Achintya: Doku-Sudoku divided into four rounds namely",
-          "i.We all",
-          "ii. Kayo",
-          "iii. Resolute ",
-          "iv. Decisive Ace",
-          "4. There is a time boundation in each round.",
-          "5. Participants will be shot listed on the basis of best solvers taking less time.",
-          "6. In case of any discrepancies, the decision of judges will be final and binding.",
-          "7. Any in-disciplinary act by the participants would lead to their disqualification from the event.",
-          "8. Rules & steps of game play will be communicated before every round",
-        ],
 
-        name: ["ACHINTYA: THE MIND MATRIX"],
-        title: "ACHINTYA",
-        coordinators: ["Akriti Bhatt", "Himalaya Bansal", "Soumitra Walambe"],
-        insta: [" ", " ", " "],
-        imgsrc: [def, def, def],
-        link_id: ["", "", "", ""],
-
-        message: ["", "", ""],
-        wg_link: "",
-      },
-   
-  //////////////////////BUSINESS QUIZ///////////////////////////////
-  
-      {
-        poster: poster,
-        rules: [
-          "1. The quiz will be based on synonyms, antonyms, Business News, COVID-19 updates,Slogans, Brands and current affairs.",
-          "2. The whole competition will be divided into three rounds i.e., Prelims, Semi-final and Final.",
-          "3. There will be having a team of 2 participants from each department.",
-          "4. Quiz will be conducted in 3 rounds.",
-          "5. In case the no. of participants are more there will be a qualification round. After that actual rounds will begin",
-        ],
-
-        name: ["BUSINESS QUIZ"],
-        title: "BUSINESS QUIZ",
-        coordinators: [
-          "Nehal Reddy",
-          "Saksham Saxena",
-          "Sanskar Gupta",
-          "Bhoomi Jain",
-          "Bhoomi Jain",
-          "Bhoomi Jain",
-        ],
-        insta: ["", "", "", "", "", ""],
-        imgsrc: [def, def, def, def, def, def],
-        link_id: ["", "", "", "", "", "", ""],
-
-        message: ["", "", "", "", "", ""],
-        wg_link: "",
-      },
-    
-  /////////////////BUSINESS PLAN/////////////////////////////
-  
-      {
-        poster: poster,
-        rules: [
-          " 1. The participant will be in groups, minimum 2 and maximum of 4.",
-          "2. PPT is to be prepared by the students of the business plan.",
-          "3. A maximum of 6 min will be allotted for presentation and 2 min for question and answers ",
-          "4. The panel members/judges/faculty coordinators will make the final selection on the basis of presentation and innovation.",
-        ],
-
-        name: ["BUSINESS PLAN COMPETITION"],
-        title: "BUSINESS PLAN",
-        coordinators: [
-          "Poorvanshi Gupta ",
-          " Palak dwivedi",
-          " Palak dwivedi",
-          "Jalaj Gupta ",
-          "Ayush Motihar",
-          "Akshat Jain",
-        ],
-        insta: ["", "", "", "", "", ""],
-        imgsrc: [def, def, def, def, def, def],
-        link_id: ["", "", "", "", "", "", ""],
-
-        message: ["", "", "", "", "", ""],
-        wg_link: "",
-      },
-    
-  /////////////////////ROLE MODEL ANALYSIS ////////////////////////////
-  
-      {
-        poster: poster,
-        rules: [
-          " 1. The participant is required to express/present his/her concept and thoughts during the live engagement. He or she is not permitted to use recorded video or audio",
-          "2.Participants can’t take the help of others and are not allowed to refer to any materials or electronic gadgets during presentations",
-          "3. The evaluation will be done on the basis of presentation content, innovation,  communication skills and the overall performance ",
-          "4. The panel members/judges/faculty coordinators will make the final selection of candidates for final performance. Their decision will be the final decision",
-        ],
-
-        name: ["BUSINESS PLAN"],
-        title: "BUSINESS PLAN COMPETITION",
-        coordinators: ["Mohit Saraswat ", "Yashika Batra"],
-        insta: ["", ""],
-        imgsrc: [def, def],
-        link_id: ["", ""],
-
-        message: ["", ""],
-        wg_link: "",
-      },
-    
-  /////////////////////////////MEMEGRAM///////////////////////
   {
     poster: poster,
-    rules: [" 1.Participants should focus on originality rather than copying",
-          "2.Video content should be 30-45 secs (maximum).",
-          "3.Content should be engaging and interesting ",
-          "4. There should be no offense in your content, no abusive language, and no dark jokes. Otherwise, you will be disqualified from the event",
-        ],
+    rules: [
+      "1. Competition is open for all.",
+      "2. There shall be individual participation.",
+      "3. The Achintya: Doku-Sudoku divided into four rounds namely",
+      "i.We all",
+      "ii. Kayo",
+      "iii. Resolute ",
+      "iv. Decisive Ace",
+      "4. There is a time boundation in each round.",
+      "5. Participants will be shot listed on the basis of best solvers taking less time.",
+      "6. In case of any discrepancies, the decision of judges will be final and binding.",
+      "7. Any in-disciplinary act by the participants would lead to their disqualification from the event.",
+      "8. Rules & steps of game play will be communicated before every round",
+    ],
 
-        name:"MEMEGRAM",
-        title:"MEMEGRAM",
-        coordinators: [
-          " Deepanjali Upadhyay",
-          "Radhika Begwani ",
-          "Yaman Jain",
-          " Mukul Khandelwal",
-        ],
-        insta: ["", "", "", ""],
-        imgsrc: [Deepanjali, radhika, yaman, Mukul],
-        link_id: ["", "", "", ""],
+    name: ["ACHINTYA: THE MIND MATRIX"],
+    title: "ACHINTYA",
+    coordinators: ["Akriti Bhatt", "Himalaya Bansal", "Soumitra Walambe"],
+    insta: [" ", " ", " "],
+    imgsrc: [def, def, def],
+    link_id: ["", "", "", ""],
 
-        message: ["", "", "", ""],
-        wg_link: "",
-      },
+    message: ["", "", ""],
+    wg_link: "",
+  },
+
+  //////////////////////BUSINESS QUIZ///////////////////////////////
+
+  {
+    poster: poster,
+    rules: [
+      "1. The quiz will be based on synonyms, antonyms, Business News, COVID-19 updates,Slogans, Brands and current affairs.",
+      "2. The whole competition will be divided into three rounds i.e., Prelims, Semi-final and Final.",
+      "3. There will be having a team of 2 participants from each department.",
+      "4. Quiz will be conducted in 3 rounds.",
+      "5. In case the no. of participants are more there will be a qualification round. After that actual rounds will begin",
+    ],
+
+    name: ["BUSINESS QUIZ"],
+    title: "BUSINESS QUIZ",
+    coordinators: [
+      "Nehal Reddy",
+      "Saksham Saxena",
+      "Sanskar Gupta",
+      "Bhoomi Jain",
+      "Bhoomi Jain",
+      "Bhoomi Jain",
+    ],
+    insta: ["", "", "", "", "", ""],
+    imgsrc: [def, def, def, def, def, def],
+    link_id: ["", "", "", "", "", "", ""],
+
+    message: ["", "", "", "", "", ""],
+    wg_link: "",
+  },
+
+  /////////////////BUSINESS PLAN/////////////////////////////
+
+  {
+    poster: poster,
+    rules: [
+      " 1. The participant will be in groups, minimum 2 and maximum of 4.",
+      "2. PPT is to be prepared by the students of the business plan.",
+      "3. A maximum of 6 min will be allotted for presentation and 2 min for question and answers ",
+      "4. The panel members/judges/faculty coordinators will make the final selection on the basis of presentation and innovation.",
+    ],
+
+    name: ["BUSINESS PLAN COMPETITION"],
+    title: "BUSINESS PLAN",
+    coordinators: [
+      "Poorvanshi Gupta ",
+      " Palak dwivedi",
+      " Palak dwivedi",
+      "Jalaj Gupta ",
+      "Ayush Motihar",
+      "Akshat Jain",
+    ],
+    insta: ["", "", "", "", "", ""],
+    imgsrc: [def, def, def, def, def, def],
+    link_id: ["", "", "", "", "", "", ""],
+
+    message: ["", "", "", "", "", ""],
+    wg_link: "",
+  },
+
+  /////////////////////ROLE MODEL ANALYSIS ////////////////////////////
+
+  {
+    poster: poster,
+    rules: [
+      " 1. The participant is required to express/present his/her concept and thoughts during the live engagement. He or she is not permitted to use recorded video or audio",
+      "2.Participants can’t take the help of others and are not allowed to refer to any materials or electronic gadgets during presentations",
+      "3. The evaluation will be done on the basis of presentation content, innovation,  communication skills and the overall performance ",
+      "4. The panel members/judges/faculty coordinators will make the final selection of candidates for final performance. Their decision will be the final decision",
+    ],
+
+    name: ["BUSINESS PLAN"],
+    title: "BUSINESS PLAN COMPETITION",
+    coordinators: ["Mohit Saraswat ", "Yashika Batra"],
+    insta: ["", ""],
+    imgsrc: [def, def],
+    link_id: ["", ""],
+
+    message: ["", ""],
+    wg_link: "",
+  },
+
+  /////////////////////////////MEMEGRAM///////////////////////
+  {
+    poster: memeposter,
+    rules: [
+      " 1.Participants should focus on originality rather than copying",
+      "2.Video content should be 30-45 secs (maximum).",
+      "3.Content should be engaging and interesting ",
+      "4. There should be no offense in your content, no abusive language, and no dark jokes. Otherwise, you will be disqualified from the event",
+    ],
+
+    name: "MEMEGRAM",
+    title: "MEMEGRAM",
+    coordinators: [
+      " Deepanjali Upadhyay",
+      "Radhika Begwani ",
+      "Yaman Jain",
+      " Mukul Khandelwal",
+    ],
+    insta: ["https://www.instagram.com/__.oyedeepzz.__/?hl=en", "https://www.instagram.com/radhikabegwani/?hl=en", "https://www.instagram.com/_.manzyan._/?hl=en", "https://instagram.com/_mukul_khandelwal?utm_medium=copy_link"],
+    imgsrc: [Deepanjali, radhika, yaman, Mukul],
+    message: ["AmiChroma is the biggest youthfest of our institute. This is one of the best part of the year. All of us come together organize events , participates and have a lot of fun. Nowadays, we all are aware about the trends of Creating Memes. If you too are a big fan of memes ,this is the perfect opportunity to showcase you skills in AmiChroma 2K22.", "It’s always a pleasure to work for fests at Amity University. Personally it’s been amusing. Given our opportunity for digital reproduction, we now have ways of engaging with images that did not just exist in the past. We are now making memes out of it all. If you are a meme lover, We bring you a chance to outdo yourself and channel your inner memer, at the Amichroma’2022.", "Organizing an event is my favourite part as all fellow mates works as a team. I am glad that Amity gave me opportunity to organize my own event with my team in great fest like 'AMiCHrOMa', Yeah!", "Feeling glad that Amity gave me an opportunity to organize an event with my team members in the 'AMICHROMA',Meme making is the best activity I like to do. So organizing this event have a great fun for us!"],
+
     
+  },
+
   ///////////////SHORT MOVIE MAKING COMPETITION///////////////////////////
- 
-      {
-        poster: poster,
-        rules: [
-          " 1.There shall be a team of 3- 5 Members",
-          "2.The duration of the Movie should not be more than 3-5 minutes",
-          "3.Themes: Human vs Robots /Fantasy World vs Realistic World/Student Life/ Digital India/ Road Safety/Green Computing /Atam Nirbhar Bharat/Beti Bachao/New Education Policy. (Documentary/Inspirational)",
-          "4. A single person can also participate. A movie can be made by photographs and short video clips.",
-          "5.In case of any discrepancies, the decision of judges will be final and binding",
-        ],
 
-        name: ["SHORT MOVIE MAKING COMPETITION"],
-        title: "SHORT MOVIE",
-        coordinators: [
-          " Rajdeep Choudhary",
-          "Gun Gupta",
-          "Ayushi Baijal",
-          "Khushi Yadav",
-        ],
-        insta: ["", "", "", ""],
-        imgsrc: [def, def, def, def],
-        link_id: ["", "", "", ""],
+  {
+    poster: short_movie,
+    rules: [
+      " 1.There shall be a team of 3- 5 Members",
+      "2.The duration of the Movie should not be more than 3-5 minutes",
+      "3.Themes: Human vs Robots /Fantasy World vs Realistic World/Student Life/ Digital India/ Road Safety/Green Computing /Atam Nirbhar Bharat/Beti Bachao/New Education Policy. (Documentary/Inspirational)",
+      "4. A single person can also participate. A movie can be made by photographs and short video clips.",
+      "5.In case of any discrepancies, the decision of judges will be final and binding",
+    ],
 
-        message: ["", "", "", ""],
-        wg_link: "",
-        genre:"Team"
-      },
-    
-  /////////////////SEREIS QUIZ////////////////////////////
+    name: ["SHORT MOVIE MAKING COMPETITION"],
+    title: "SHORT MOVIE",
+    coordinators: [
+      " Rajdeep Choudhary",
+      "Adarsh Rathore",
+      "Gun Gupta",
+      "Ayushi Baijal",
+      "Khushi Yadav",
+    ],
+    insta: [
+      "https://www.instagram.com/i_m_raj_45/?utm_medium=copy_link",
+      "https://www.instagram.com/_frustratedsoul_/?utm_medium=copy_link",
+      "https://www.instagram.com/gunn_gupta0409/?utm_medium=copy_link",
+      "https://instagram.com/ayushibaijal?utm_medium=copy_link",
+      "https://www.instagram.com/khussheii/?utm_medium=copy_link",
+    ],
+    imgsrc: [Rajdeep,adarsh, Gun, Ayushi, Khushi],
+
   
-    
-      {
-        poster: poster,
-        rules: [
-          " 1.Total No. of Question: 25 ( Based on the series opted by the candidate)",
-          "2.Total Time Given: 10-12 minutes",
-          "3.If the two participants get same marks then the participant who has given answers in least time will be qualified for the next round",
-          "4. A single person can also participate. A movie can be made by photographs and short video clips.",
-          "5.If again the two participants have given answers within same time duration then there will be a rapid fire round where each candidate will be asked 5-6 questions and the participant who will answer maximum question will be qualified for the next round",
-        ],
+    message: [
+      "If somebody offers you an amazing opportunity but you are not sure you can do it, say yes then learn how to do it later.” in the same way I would thank respected faculty member for  giving  me this opportunities to become a coordinator in such a big event and manage it.",
+      "I am so thrilled in taking part of this event. The experience was unbelievable. These events in our Amity University brings anxiety in us and encouragement in all the activities .Thankyou for this learning experience.",
+      "I am grateful for this event for giving this sparking opportunity. With this shining opportunity comes confidence and belief of prosperity and growth. Working as a coordinator has given me immense experience. And I'm faithful for my faculties for considering me capable for the position",
+      "t's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.","It's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.",
+    ],
+    wg_link: "",
+    genre: "Team",
+  },
 
-        name: ["SERIES QUIZ"],
-        title: "SERIES QUIZ",
-        coordinators: [" Aastha Poddar ", "Aastha Poddar  "],
-        insta: ["", ""],
-        imgsrc: [def, def],
-        link_id: ["", ""],
+  /////////////////SEREIS QUIZ////////////////////////////
 
-        message: ["", ""],
-        wg_link: "",
-      },
-    
+  {
+    poster: poster,
+    rules: [
+      " 1.Total No. of Question: 25 ( Based on the series opted by the candidate)",
+      "2.Total Time Given: 10-12 minutes",
+      "3.If the two participants get same marks then the participant who has given answers in least time will be qualified for the next round",
+      "4. A single person can also participate. A movie can be made by photographs and short video clips.",
+      "5.If again the two participants have given answers within same time duration then there will be a rapid fire round where each candidate will be asked 5-6 questions and the participant who will answer maximum question will be qualified for the next round",
+    ],
+
+    name: ["SERIES QUIZ"],
+    title: "SERIES QUIZ",
+    coordinators: [" Aastha Poddar ", "Aastha Poddar  "],
+    insta: ["", ""],
+    imgsrc: [def, def],
+    link_id: ["", ""],
+
+    message: ["", ""],
+    wg_link: "",
+  },
+
   ////////////////////////////////CODE SNIPPET///////////////////////////////////
 
   {
-    
-        poster: poster,
-        rules: [
-          " 1.Individual event",
-          "2.Coding can represent societal problem solution in an exciting manner",
-          "3. Coding can be done in any language on any platform",
-          "4. Coding can be done in any language on any platform",
-          "5. Coding can be done in any language on any platform",
-        ],
-        name: ["CODE SNIPPET CONTEST"],
-        title: "CODE SNIPPET",
-        coordinators: [
-          "Ayushi Rai ",
-          "Deepak Thakur ",
-          "Rajat Gupta",
-          "Malika Tripathi ",
-        ],
-        insta: ["", "", "", ""],
-        imgsrc: [def, def, def, def],
-        link_id: ["", "", "", ""],
+    poster: poster,
+    rules: [
+      " 1.Individual event",
+      "2.Coding can represent societal problem solution in an exciting manner",
+      "3. Coding can be done in any language on any platform",
+      "4. Coding can be done in any language on any platform",
+      "5. Coding can be done in any language on any platform",
+    ],
+    name: ["CODE SNIPPET CONTEST"],
+    title: "CODE SNIPPET",
+    coordinators: [
+      "Ayushi Rai ",
+      "Deepak Thakur ",
+      "Rajat Gupta",
+      "Malika Tripathi ",
+    ],
+    insta: ["", "", "", ""],
+    imgsrc: [def, def, def, def],
+    link_id: ["", "", "", ""],
 
-        message: ["", "", "", ""],
-        wg_link: "",
-      },
-    //////////////////////////ROLE MODEL//////////////////////
-    {
-    
-      poster: poster,
-      rules: [
-        " 1.The participant is required to express/present his/her concept and thoughts during the live gement. He or she is not permitted to use recorded video or audio",
-        "2.Participants can’t take the help of others and are not allowed to refer to any materials or electronic gadgets during presentations",
-        
-        "3. The evaluation will be done on the basis of presentation content, innovation, communication skills and the overall performance",
-        "4.The panel members/judges/faculty coordinators will make the final selection of candidates  for final performance. Their decision will be the final decision",
-        
-      ],
-      name: ["ROLE MODEL ANALYSIS"],
-      title: "ROLE MODEL",
-      coordinators: [
-        "Mohit Saraswat  ",
-        "Yashika Batra ",
-      ],
-      insta: ["", "", ],
-      imgsrc: [def, def, ],
-      link_id: ["", "", ],
+    message: ["", "", "", ""],
+    wg_link: "",
+  },
+  //////////////////////////ROLE MODEL//////////////////////
+  {
+    poster: poster,
+    rules: [
+      " 1.The participant is required to express/present his/her concept and thoughts during the live gement. He or she is not permitted to use recorded video or audio",
+      "2.Participants can’t take the help of others and are not allowed to refer to any materials or electronic gadgets during presentations",
 
-      message: ["", "",],
-      wg_link: "",
-    },
+      "3. The evaluation will be done on the basis of presentation content, innovation, communication skills and the overall performance",
+      "4.The panel members/judges/faculty coordinators will make the final selection of candidates  for final performance. Their decision will be the final decision",
+    ],
+    name: ["ROLE MODEL ANALYSIS"],
+    title: "ROLE MODEL",
+    coordinators: ["Mohit Saraswat  ", "Yashika Batra "],
+    insta: ["", ""],
+    imgsrc: [def, def],
+    link_id: ["", ""],
+
+    message: ["", ""],
+    wg_link: "",
+  },
 
   ///////////////////POSTER COMPETITION//////////////////////////////////////////////////////
-  
-    
-      {
-        poster: poster,
-        rules: [
-          " 1. Only One Member Can Participate In The Competition ",
-          "2. Only One Member Can Participate In The Competition ",
-          "3. Drawing Can Be Made With Pencil Or Coloured.",
-          "4. Sketch up A Logo for Your Dream Smart City and Give a Suitable Tag Line for the same",
-          "5. If Competition Is Conducted On Physical Mode, Then 3 Hours Will Be Given To Participant",
-          "6.Scan Copy Will Be Collected",
-          "7.Students From Any Stream (Arts, Science, Engg., Management Etc.) Can Participate In  This Competition",
-          "8.In Case Of Any Discrepancies, The Decision Of Judges Will Be Final And Binding",
-        ],
-        name: ["POSTER COMPETITION"],
-        title:"POSTER DESIGN",
-        coordinators: ["Mayank Chahar", "Kuldeep Gupta"],
-        insta: ["", ""],
-        imgsrc: [def, def],
-        link_id: ["", ""],
 
-        message: ["", ""],
-        wg_link: "",
-      },
-    
+  {
+    poster: poster,
+    rules: [
+      " 1. Only One Member Can Participate In The Competition ",
+      "2. Only One Member Can Participate In The Competition ",
+      "3. Drawing Can Be Made With Pencil Or Coloured.",
+      "4. Sketch up A Logo for Your Dream Smart City and Give a Suitable Tag Line for the same",
+      "5. If Competition Is Conducted On Physical Mode, Then 3 Hours Will Be Given To Participant",
+      "6.Scan Copy Will Be Collected",
+      "7.Students From Any Stream (Arts, Science, Engg., Management Etc.) Can Participate In  This Competition",
+      "8.In Case Of Any Discrepancies, The Decision Of Judges Will Be Final And Binding",
+    ],
+    name: ["POSTER COMPETITION"],
+    title: "POSTER DESIGN",
+    coordinators: ["Mayank Chahar", "Kuldeep Gupta"],
+    insta: ["", ""],
+    imgsrc: [def, def],
+    link_id: ["", ""],
 
+    message: ["", ""],
+    wg_link: "",
+  },
 
   ////////////////////////////CHAL CHITRA//////////////////////////////////////
   {
@@ -772,11 +766,11 @@ const list = [
     name: ["Aao Baate kre 4 – Ye RJ HUNT hai Yarr…./ Suno Sunaoo RJ Hunt "],
     title: "RJ HUNT",
     coordinators: ["Apoorva Dar ", "Aditya Sharma", "Vishnu Sharma"],
-    insta: ["", "",""],
-    imgsrc: [def, def,def],
-    link_id: ["", "",""],
+    insta: ["", "", ""],
+    imgsrc: [def, def, def],
+    link_id: ["", "", ""],
 
-    message: ["", "",""],
+    message: ["", "", ""],
     wg_link: "",
   },
   ////////////////////////////////SElFIE CONTEST///////////////////////
@@ -784,7 +778,7 @@ const list = [
     poster: poster,
     rules: [
       " 1.Single participation or group participation",
-      "2.The theme of the selfie will be disclosed to the registered members"
+      "2.The theme of the selfie will be disclosed to the registered members",
     ],
     name: ["SELFIE CONTEST"],
     title: "SELFIE CONTEST",
@@ -795,15 +789,10 @@ const list = [
 
     message: ["", ""],
     wg_link: "",
-    genre:"Team",
+    genre: "Team",
   },
 
-
-
-
-
   ////////////////////////////////////////90's games zone////////////////////////////////
-
 
   {
     poster: poster,
@@ -813,22 +802,25 @@ const list = [
       "3.The itinerary will be provided as per the games",
       "4.Each member of the team has to come at least once for assistance",
       "5. Any word to be guessed should not be directly pointed out to other team members.",
-      "6. In case of any discrepancies, the decision of judges will be final and binding"
+      "6. In case of any discrepancies, the decision of judges will be final and binding",
     ],
     name: ["90’S GAME ZONE WITH KAI PO CHE"],
     title: "90’S GAME ZONE",
-    coordinators: ["Arya Jain ", "Vikram Gupta ","Rishab Pathak","Vandna Gabra "],
-    insta: ["", "","", ""],
-    imgsrc: [def, def,def,def],
-    link_id: ["", "","", ""],
+    coordinators: [
+      "Arya Jain ",
+      "Vikram Gupta ",
+      "Rishab Pathak",
+      "Vandna Gabra ",
+    ],
+    insta: ["", "", "", ""],
+    imgsrc: [def, def, def, def],
+    link_id: ["", "", "", ""],
 
-    message: ["", "","", ""],
+    message: ["", "", "", ""],
     wg_link: "",
-    genre:"Team"
+    genre: "Team",
   },
   /////////////////////////////////////STANDUP COMEDY///////////////////////////////////
-
-
 
   {
     poster: poster,
@@ -838,12 +830,12 @@ const list = [
       "3.Participants will be judged on the basis of content, fluency, spontaneity, presentation & sense of humour",
       "4.No participant can point out any individual or religion in any way, and any dual meaning obscene content is strictly not allowed",
       "5.Decision of the judges will be final and binding.",
-      "6. Certificate would be given to the winners/runners and all participants"
+      "6. Certificate would be given to the winners/runners and all participants",
     ],
     name: ["STANDUP COMEDY"],
     title: "standup comedy",
     coordinators: ["Rohit Pathak ", "Mudit Goswami "],
-    insta: ["", "",],
+    insta: ["", ""],
     imgsrc: [def, def],
     link_id: ["", ""],
 
@@ -851,38 +843,29 @@ const list = [
     wg_link: "",
   },
 
+  ////////////////////////////POETRY//////////////////////////////////
 
+  {
+    poster: poster,
+    rules: [
+      " 1. Poems should be either in English/Hindi ",
+      "2 The poem should be original. Plagiarism of any sort would lead to straight disqualification.",
+      "3 Total 10 minutes would be given to the participants for presentation",
+      "4.The poet will have to specify the “ras” of the poem and will have to give a title to his/her poem",
+      "5.. The poems should not have obscene language or any vulgar innuendos. Usage of such language will lead to disqualification",
+      "6.The poems will be judged on the basis of Content, Originality, its conformance to the “ras” specified, creativity of Title, overall impact",
+      "7. Certificate would be given to the winners/runners and all participants",
+    ],
+    name: ["POETRY"],
+    title: "POETRY",
+    coordinators: ["Ayushman Pyasi ", "Vibhu Sharma"],
+    insta: ["", ""],
+    imgsrc: [def, def],
+    link_id: ["", ""],
 
-
-////////////////////////////POETRY//////////////////////////////////
-
-{
-  poster: poster,
-  rules: [
-    " 1. Poems should be either in English/Hindi ",
-    "2 The poem should be original. Plagiarism of any sort would lead to straight disqualification.",
-    "3 Total 10 minutes would be given to the participants for presentation",
-    "4.The poet will have to specify the “ras” of the poem and will have to give a title to his/her poem",
-    "5.. The poems should not have obscene language or any vulgar innuendos. Usage of such language will lead to disqualification",
-    "6.The poems will be judged on the basis of Content, Originality, its conformance to the “ras” specified, creativity of Title, overall impact",
-    "7. Certificate would be given to the winners/runners and all participants"
-  ],
-  name: ["POETRY"],
-  title: "POETRY",
-  coordinators: ["Ayushman Pyasi ", "Vibhu Sharma"],
-  insta: ["", "",],
-  imgsrc: [def, def],
-  link_id: ["", ""],
-
-  message: ["", ""],
-  wg_link: "",
-},
-
-
-
-
-
-
+    message: ["", ""],
+    wg_link: "",
+  },
 
   //////////////////////////EXTEMPORE///////////////////////
   {
@@ -892,17 +875,23 @@ const list = [
       "2 Maximum time limit to think over the topic will be 2 minutes and the maximum time for speech will be 5 minutes.",
       "3 The participant will be allowed to change the topic only once if not comfortable with the previous topic",
       "4.Participants will not be allowed to take any paper or material with him or her during the speech",
-      "5. The participant has to choose one of the five listed domains prior to the competition: Data science,Cyber security,Artificial intelligence, Internet of Things","Wireless networks",
+      "5. The participant has to choose one of the five listed domains prior to the competition: Data science,Cyber security,Artificial intelligence, Internet of Things",
+      "Wireless networks",
       "6.Bunch of the topics will be given to select any one randomly",
-      "7.He/she will be given 2 minutes prior to the speech to think over the topic"
+      "7.He/she will be given 2 minutes prior to the speech to think over the topic",
     ],
     name: ["TOAST-WITH-CONFIDENCE: AN EXTEMPORE COMPETITION"],
     title: "EXTEMPORE",
-    coordinators: ["Aditya Khare ", "Aditya Narayan Upadhyay","Akanksha Srivastava","Harshita Sharma"],
-    insta: ["", "",],
-    imgsrc: [def, def,def,def],
+    coordinators: [
+      "Aditya Khare ",
+      "Aditya Narayan Upadhyay",
+      "Akanksha Srivastava",
+      "Harshita Sharma",
+    ],
+    insta: ["", ""],
+    imgsrc: [def, def, def, def],
     link_id: ["", ""],
-  
+
     message: ["", ""],
     wg_link: "",
   },
@@ -915,19 +904,17 @@ const list = [
       "3 If the two participants get same marks then the participant who has given answers in least time will be winner.",
       "4.If again the two participants have given answers within same time duration then there will be a rapid fire round where each candidate will be asked 5-6 questions and the participant who will answer maximum question will be winner",
       "5. There will be I, II & III winner",
-      
     ],
     name: ["SSB QUIZ"],
     title: "SSB QUIZ",
     coordinators: ["Kajal Mishra ", "Garima Srivastava"],
-    insta: ["", "",],
+    insta: ["", ""],
     imgsrc: [def, def],
     link_id: ["", ""],
-  
+
     message: ["", ""],
     wg_link: "",
   },
-
 ];
 
 export { list };

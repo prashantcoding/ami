@@ -8,8 +8,9 @@ function SignIn(props) {
    let history=useHistory();
     const [status, setstatus] = useState('');
     const responseGoogle = async(response) => {
-        
+        console.log(response);
        axios({
+          
             method: "post",
             url: "http://localhost:5000/api/users/register",
             
