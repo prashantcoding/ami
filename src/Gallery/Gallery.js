@@ -31,7 +31,8 @@ const Gallery = () => {
         <div className={styles.v_v_flex}>
         {workshoplist.map(
           (items) =>
-                <VedioCard id={items.id}></VedioCard>
+
+                <VedioCard key={items.id}id={items.id}></VedioCard>
             
             )
         }

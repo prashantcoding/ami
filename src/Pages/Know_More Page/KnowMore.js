@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./knowStyle.module.css";
-import poster from "./images/dacne.jpg";
+// import poster from "./images/dacne.jpg";
 // import cod1 from "./cod1.jfif";
 // import cod2 from "./cod2.jfif";
 // import cod3 from "./cod3.jfif";
@@ -28,7 +28,7 @@ const KnowMore = () => {
                 <CategoryBar title={items.name} />
 
                 <div className={styles.posterholder}>
-                  <img className={styles.poster} src={items.poster}></img>
+                  <img className={styles.poster} alt="poster" src={items.poster}></img>
                 </div>
                 <div>
                   <div className={styles.ruleR}>
