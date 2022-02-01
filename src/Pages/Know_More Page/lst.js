@@ -57,7 +57,7 @@ const list = [
     name: ["TAMBOLA"],
     title: "TAMBOLA",
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
     coordinators: ["Prashant Kumar", "Riddhi Agrawal"],
     message: ["", ""],
@@ -274,7 +274,7 @@ const list = [
       "Manisha Singh",
     ],
     insta: ["", "", "", "", ""],
-    imgsrc: [def, def, def, def, def],
+    imgsrc: [],
     link_id: ["", "", "", "", ""],
 
     message: ["", "", "", ""],
@@ -337,7 +337,7 @@ const list = [
     title: "WHEEL N FUN",
     coordinators: ["Ananya Mudgal ", " Mansi Kushwaha"],
     insta: ["", "", "", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", "", "", ""],
 
     message: ["", "", "", ""],
@@ -359,7 +359,7 @@ const list = [
     title: "DANCE FLOOR",
     coordinators: ["Mishika Singh", "Nanshi Singh", "Tanishka Khandelwal"],
     insta: ["", "", "", ""],
-    imgsrc: [def, def, def],
+    imgsrc: [],
     link_id: ["", "", "", ""],
 
     message: ["", "", "", ""],
@@ -386,7 +386,7 @@ const list = [
       "Vanshika Pandey",
     ],
     insta: ["", "", "", ""],
-    imgsrc: [def, def, def, def],
+    imgsrc: [],
     link_id: [" ", " ", " ", " "],
 
     message: ["", "", "", ""],
@@ -416,7 +416,7 @@ const list = [
       "Kajal Bhadauria",
     ],
     insta: ["", "", "", ""],
-    imgsrc: [def, def, def, def],
+    imgsrc: [],
     link_id: ["", "", "", ""],
 
     message: ["", "", "", ""],
@@ -447,7 +447,7 @@ const list = [
     title: "ACHINTYA",
     coordinators: ["Akriti Bhatt", "Himalaya Bansal", "Soumitra Walambe"],
     insta: [" ", " ", " "],
-    imgsrc: [def, def, def],
+    imgsrc: [],
     link_id: ["", "", "", ""],
 
     message: ["", "", ""],
@@ -477,7 +477,7 @@ const list = [
       "Bhoomi Jain",
     ],
     insta: ["", "", "", "", "", ""],
-    imgsrc: [def, def, def, def, def, def],
+    imgsrc: [],
     link_id: ["", "", "", "", "", "", ""],
 
     message: ["", "", "", "", "", ""],
@@ -506,7 +506,7 @@ const list = [
       "Akshat Jain",
     ],
     insta: ["", "", "", "", "", ""],
-    imgsrc: [def, def, def, def, def, def],
+    imgsrc: [],
     link_id: ["", "", "", "", "", "", ""],
 
     message: ["", "", "", "", "", ""],
@@ -528,7 +528,7 @@ const list = [
     title: "BUSINESS PLAN COMPETITION",
     coordinators: ["Mohit Saraswat ", "Yashika Batra"],
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],
@@ -617,7 +617,7 @@ const list = [
     title: "SERIES QUIZ",
     coordinators: [" Aastha Poddar ", "Aastha Poddar  "],
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],
@@ -644,7 +644,7 @@ const list = [
       "Malika Tripathi ",
     ],
     insta: ["", "", "", ""],
-    imgsrc: [def, def, def, def],
+    imgsrc: [],
     link_id: ["", "", "", ""],
 
     message: ["", "", "", ""],
@@ -664,7 +664,7 @@ const list = [
     title: "ROLE MODEL",
     coordinators: ["Mohit Saraswat  ", "Yashika Batra "],
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],
@@ -689,7 +689,7 @@ const list = [
     title: "POSTER DESIGN",
     coordinators: ["Mayank Chahar", "Kuldeep Gupta"],
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],
@@ -717,7 +717,7 @@ const list = [
       "Rahul Singh Tomar",
     ],
     insta: ["", "", "", ""],
-    imgsrc: [def, def, def, def],
+    imgsrc: [],
     link_id: ["", "", "", ""],
 
     message: ["", "", "", ""],
@@ -740,7 +740,7 @@ const list = [
     title: "PHOTOGRAPHY",
     coordinators: ["Jayesh ", "Rishav Singh Tomar"],
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],
@@ -767,7 +767,7 @@ const list = [
     title: "RJ HUNT",
     coordinators: ["Apoorva Dar ", "Aditya Sharma", "Vishnu Sharma"],
     insta: ["", "", ""],
-    imgsrc: [def, def, def],
+    imgsrc: [],
     link_id: ["", "", ""],
 
     message: ["", "", ""],
@@ -784,7 +784,7 @@ const list = [
     title: "SELFIE CONTEST",
     coordinators: ["Prena Singh", "PVandana gabra"],
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],
@@ -813,7 +813,7 @@ const list = [
       "Vandna Gabra ",
     ],
     insta: ["", "", "", ""],
-    imgsrc: [def, def, def, def],
+    imgsrc: [],
     link_id: ["", "", "", ""],
 
     message: ["", "", "", ""],
@@ -836,7 +836,7 @@ const list = [
     title: "standup comedy",
     coordinators: ["Rohit Pathak ", "Mudit Goswami "],
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],
@@ -860,7 +860,7 @@ const list = [
     title: "POETRY",
     coordinators: ["Ayushman Pyasi ", "Vibhu Sharma"],
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],
@@ -889,7 +889,7 @@ const list = [
       "Harshita Sharma",
     ],
     insta: ["", ""],
-    imgsrc: [def, def, def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],
@@ -909,7 +909,7 @@ const list = [
     title: "SSB QUIZ",
     coordinators: ["Kajal Mishra ", "Garima Srivastava"],
     insta: ["", ""],
-    imgsrc: [def, def],
+    imgsrc: [],
     link_id: ["", ""],
 
     message: ["", ""],

@@ -43,9 +43,10 @@ const KnowMore = () => {
                     
                   <DisplayRules rules={items.rules} />
                 </div>
-                <h1 className={styles.headline}>Coordinators</h1>
+               
                 <div>
-                  <DisplayImg
+                 
+                 <DisplayImg
                     imgsrc={items.imgsrc}
                     coordinators={items.coordinators}
                     message={items.message}

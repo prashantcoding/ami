@@ -60,6 +60,14 @@ const AboutUs = () => {
         
       </span>
       <div className={styles.web_cood}>
+      <Message2
+          img={prashant}
+          text=
+            ""
+          
+          name="Dr Dinesh Sharma"
+          position=""
+        />
       <Message
           img={prashant}
           text=
@@ -68,14 +76,7 @@ const AboutUs = () => {
           name="Prashant Goswami"
           position="B.Tech Cse 4sem"
         /> 
-        <Message2
-          img={prashant}
-          text=
-            "Amichorma is really a good place to showcase your skills and learn new thing building team skills and work on  a real event so i want to really thanks my faculty for this wonderfull event"
-          
-          name="Prashant Goswami"
-          position="B.Tech Cse 4sem"
-        />
+        
       </div>
       </div>
      
