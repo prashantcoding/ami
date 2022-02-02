@@ -1,11 +1,14 @@
-import cod1 from "./images/cod1.jfif";
-import cod2 from "./images/cod2.jfif";
+
 import prashant from "./images/prashant.jpg";
 import poster from "./images/dacne.jpg";
 import leeza from "./images/leeza.jpg";
 import shreya from "./images/shreya.jpg";
 import def from "./images/default.png";
 //////////////////////
+import  extempore_poster from './images/extempore_poster.png'
+import aditya from "./images/aditya.jpeg";
+import akansha from "./images/akansha.jpeg"
+import harshita from './images/harshita.jpeg'
 import Devashish from "./images/dev.jpeg";
 import Ambrose from "./images/am.jpeg";
 import Kinshuk from "./images/kin.jpeg";
@@ -33,7 +36,7 @@ import Kajal from "./images/KJ.jpeg";
 import adarsh from './images/AR.JPEG'
 import Ayushi from "./images/AB.jpeg";
 import Gun from "./images/GG.jpeg";
-import short_movie from "./images/short_movie.jpg";
+import short_movie from "./images/short_movie.png";
 import varuna from "./images/varuna.jpeg";
 import anshika from "./images/anshika.jpeg"
 import ayushman from "./images/ayushman.jpeg"
@@ -132,6 +135,7 @@ const list = [
     ],
     link_id: ["a", "a"],
     wg_link: "",
+    genre:"Team",
   },
   {
     ///value defualt if missing
@@ -300,7 +304,7 @@ const list = [
     imgsrc: [akshat, sonam],
     link_id: ["https://www.instagram.com/akshat.nair22/", ""],
 
-    message: ["", "", "", ""],
+    message: ["In a way all actors are glimpse or much like a traveling circus It will be great fun here I'm feeling very glad to be a part of this..!!!Thank you",""],
     wg_link: "",
   },
   {
@@ -582,6 +586,7 @@ const list = [
       "Gun Gupta",
       "Ayushi Baijal",
       "Khushi Yadav",
+      "Kajal Jain",
     ],
     insta: [
       "https://www.instagram.com/i_m_raj_45/?utm_medium=copy_link",
@@ -589,15 +594,17 @@ const list = [
       "https://www.instagram.com/gunn_gupta0409/?utm_medium=copy_link",
       "https://instagram.com/ayushibaijal?utm_medium=copy_link",
       "https://www.instagram.com/khussheii/?utm_medium=copy_link",
+      "https://instagram.com/jainmanu14?utm_medium=copy_link"
     ],
-    imgsrc: [Rajdeep,adarsh, Gun, Ayushi, Khushi],
+    imgsrc: [Rajdeep,adarsh, Gun, Ayushi, Khushi,Kajal],
 
   
     message: [
       "If somebody offers you an amazing opportunity but you are not sure you can do it, say yes then learn how to do it later.” in the same way I would thank respected faculty member for  giving  me this opportunities to become a coordinator in such a big event and manage it.",
       "I am so thrilled in taking part of this event. The experience was unbelievable. These events in our Amity University brings anxiety in us and encouragement in all the activities .Thankyou for this learning experience.",
       "I am grateful for this event for giving this sparking opportunity. With this shining opportunity comes confidence and belief of prosperity and growth. Working as a coordinator has given me immense experience. And I'm faithful for my faculties for considering me capable for the position",
-      "t's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.","It's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.",
+      "It's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.","It's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.",
+      "Thank you so much for giving me this opportunity, As a coördinator I have learned so much things, It feels great to be the part of this incredible event."
     ],
     wg_link: "",
     genre: "Team",
@@ -871,7 +878,7 @@ const list = [
 
   //////////////////////////EXTEMPORE///////////////////////
   {
-    poster: poster,
+    poster: extempore_poster,
     rules: [
       " 1. Participant has to speak only in English. ",
       "2 Maximum time limit to think over the topic will be 2 minutes and the maximum time for speech will be 5 minutes.",
@@ -885,13 +892,13 @@ const list = [
     name: ["TOAST-WITH-CONFIDENCE: AN EXTEMPORE COMPETITION"],
     title: "EXTEMPORE",
     coordinators: [
-      "Aditya Khare ",
-      "Aditya Narayan Upadhyay",
+     
+      "Aditya  Upadhyay",
       "Akanksha Srivastava",
       "Harshita Sharma",
     ],
     insta: ["", ""],
-    imgsrc: [],
+    imgsrc: [aditya,akansha,harshita],
     link_id: ["", ""],
 
     message: ["", ""],

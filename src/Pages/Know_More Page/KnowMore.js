@@ -13,7 +13,7 @@ import CategoryBar from "../../Component/CategoryBar";
 // import Alert from "../../Component/Alert/Alert";
 // import { motion } from 'framer-motion';
 import DisplayImg from "./DisplayImg";
-import JoinTeam from "../../Component/Register/Createam";
+// import JoinTeam from "../../Component/Register/Createam";
 import Createam from "../../Component/Register/Createam";
 
 const KnowMore = () => {
