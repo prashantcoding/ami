@@ -13,6 +13,16 @@ body{
     color: #44CCB2;
     margin: 2rem;
     background-color: rgb(44,53,57);
+    
+}
+.our_message{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 2rem;
+    background-color: transparent;
 }
 .subheading{
     color: whitesmoke;

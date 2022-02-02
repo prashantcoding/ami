@@ -29,7 +29,7 @@ const Testimonial = (props) => {
            
             <h3 className={styles.text}>{props.message}</h3>
 
-            <div className={styles.socials}>
+           <div className={styles.socials}>
                <a href={props.insta} ><img  src={inst} className={styles.icons}  /></a>
               
                

@@ -1,13 +1,14 @@
 import React from "react";
 import Vedio from "./Vedio";
 import styles from "./Astyles.module.css";
-
+import dineshsharma from "./images/Dineshsharma.jpg"
 import Message from "./Message";
 import Message2 from "./Message2";
 import Vc from "./images/V.C.jpg";
 import testimonial2 from "./images/testimonial2.jpg";
 import testimonial3 from "./images/testimonial3.jpg";
 import prashant from "./images/prashant.jpg";
+import madhavimam from "./images/madhavimam.jpg"
 import pro from "./images/pro.jpeg";
 const AboutUs = () => {
   return (
@@ -15,10 +16,24 @@ const AboutUs = () => {
            <Vedio /> 
       <div className={styles.container}>
       <div className={styles.heading}>
+        <h1>About Amichroma</h1>
+      
+      </div>
+      <div className={styles.our_message}>
+        
+          
+        Amity University Madhya Pradesh proudly presents AMICHROMA 2022 - a two-day festivity and celebration of the vibrant youth. It has come this year with a plethora of mind boggling events and competitions, encompassing a myriad of interests and domains. The fest would be a marvelous celebration of creativity, talent, and spirit. Come and be part of this youth celebration which is in online mode.
+        
+        
+      </div>
+
+      <div className={styles.heading}>
         <h1>Testimonials</h1>
       </div>
 
-      
+       
+         
+       
         <Message
           img={Vc}
           text={
@@ -43,14 +58,7 @@ const AboutUs = () => {
           name="Maj. Gen. Dr. S.C. Jain"
           position="HOI ASET"
         /> 
-        <Message2
-          img={testimonial3}
-          text={
-            "I found these students as my juniors. Their ideas and management regarding this event, and also co-ordination is appreciable. The students have put their heart and soul in this event. I wish them luck for success in their endeavours"
-          }
-          name={"Nasir Khan"}
-          position={"HOD Mechanical,ASET"}
-        />
+       
         
         <div className={styles.heading}>
         <h1>MEET THE TEAM</h1>
@@ -61,12 +69,12 @@ const AboutUs = () => {
       </span>
       <div className={styles.web_cood}>
       <Message2
-          img={prashant}
+          img={dineshsharma}
           text=
-            ""
+            "I found these students as my juniors. Their ideas and management regarding this event, and also co-ordination is appreciable. The students have put their heart and soul in this event. I wish them luck for success in their endeavours"
           
           name="Dr Dinesh Sharma"
-          position=""
+          position="Assistant Professor,CSE ASET AUMP"
         />
       <Message
           img={prashant}
@@ -78,6 +86,17 @@ const AboutUs = () => {
         /> 
         
       </div>
+      <div className={styles.heading}>
+        <h1>POSTER DESIGN </h1>
+      </div>
+      <Message2
+          img={madhavimam}
+          text=
+            ""
+          
+          name="Dr Madhavi Dhingra"
+          position="Assistant Professor,CSE ASET AUMP"
+        />
       </div>
      
     </>

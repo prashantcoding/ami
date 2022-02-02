@@ -15,7 +15,7 @@ import CategoryBar from "../../Component/CategoryBar";
 import DisplayImg from "./DisplayImg";
 import JoinTeam from "../../Component/Register/Createam";
 import Createam from "../../Component/Register/Createam";
-
+import style2 from "../../Pages/AboutUs/Astyles.module.css"
 const KnowMore = () => {
   const title = localStorage.getItem("event");
   return (
@@ -43,9 +43,23 @@ const KnowMore = () => {
                     
                   <DisplayRules rules={items.rules} />
                 </div>
-               
+                <div className={style2.heading}>
+                    <h1>Faculty Coordinators</h1>
+                   
+                </div>
+                {console.log(items)}
+               {items.fcoordinators? <DisplayImg
+                    imgsrc={items.fimgsrc}
+                    coordinators={items.fcoordinators}
+                    message={items.message}
+                    insta={items.insta}
+                    
+                  />:''}
+                  <br></br>
                 <div>
-                 
+                <div className={style2.heading}>
+                    <h1>Student  Coordinators</h1>
+                </div>
                  <DisplayImg
                     imgsrc={items.imgsrc}
                     coordinators={items.coordinators}
@@ -53,6 +67,7 @@ const KnowMore = () => {
                     insta={items.insta}
                   />
                 </div>
+                <br></br>
                 <Register title={items.title} />
                 {items.genre==="Team"&&<Createam title={items.title}/>}
               </>

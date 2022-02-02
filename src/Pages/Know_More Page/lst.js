@@ -1,11 +1,34 @@
-import cod1 from "./images/cod1.jfif";
-import cod2 from "./images/cod2.jfif";
+
 import prashant from "./images/prashant.jpg";
-import poster from "./images/dacne.jpg";
+ import prashantsir from "./images/Prashant_Raj_sir.jpeg"
 import leeza from "./images/leeza.jpg";
 import shreya from "./images/shreya.jpg";
 import def from "./images/default.png";
-//////////////////////
+import abhimam from "./images/abhimam.JPG"
+import mohitsarawat from "./images/mohitSaraswat.jpeg"
+import KavyaBhadauriya from "./images/KavyaBhadauriya.jpeg"
+import Yashika from "./images/YashikaBatra.jpeg"
+import Poorvanshi from "./images/Poorvanshi Gupta.jpeg"
+import jalag from "./images/Jalaj.jpeg"
+import adityaj from "./images/Aditya Sharma.jpeg"
+import Ayush from "./images/Ayush Motihar.jpeg"
+import vaishnavi from "./images/Vaishnavi Rai.jpeg"
+import palak from "./images/Palak Dwivedi.jpeg"
+import AkshatJ from "./images/Akshat Jain.jpeg"
+import drvinod from "./images/drvinod.jpeg"
+import drsandeep from "./images/drsandeep.jpeg"
+//////////////////////POSTERS////////////////////
+import smartcity from "./images/smartcity.jpg"
+import  extempore_poster from './images/extempore_poster.png'
+import poster from "./images/dacne.jpg";
+import blogPoster from "./images/blogPoster.png";
+import ccposter from "./images/ccposter.jpeg";
+import memeposter from "./images/memeposter.png";
+////////////////////////////////////////////////
+//import prashantsir2 from "./images/Prashant_Raj_sir.jpg";
+import aditya from "./images/aditya.jpeg";
+import akansha from "./images/akansha.jpeg"
+import harshita from './images/harshita.jpeg'
 import Devashish from "./images/dev.jpeg";
 import Ambrose from "./images/am.jpeg";
 import Kinshuk from "./images/kin.jpeg";
@@ -19,11 +42,10 @@ import radhika from "./images/radhika.jpeg";
 import yaman from "./images/yaman.jpeg";
 import Deepanjali from "./images/deepanjali.jpeg";
 import Mukul from "./images/mukul.jpeg";
-import blogPoster from "./images/blogPoster.png";
-import ccposter from "./images/ccposter.jpeg";
+
 import sonam from "./images/sonam.jpeg";
 import akshat from "./images/akshat.jpeg";
-import memeposter from "./images/memeposter.png";
+
 import anirudh_nair from "./images/anirudh_nair.jpeg";
 import sussem from "./images/sussem.jpeg";
 import aman from "./images/aman_dixit.jpeg";
@@ -33,7 +55,7 @@ import Kajal from "./images/KJ.jpeg";
 import adarsh from './images/AR.JPEG'
 import Ayushi from "./images/AB.jpeg";
 import Gun from "./images/GG.jpeg";
-import short_movie from "./images/short_movie.jpg";
+import short_movie from "./images/short_movie.png";
 import varuna from "./images/varuna.jpeg";
 import anshika from "./images/anshika.jpeg"
 import ayushman from "./images/ayushman.jpeg"
@@ -132,6 +154,7 @@ const list = [
     ],
     link_id: ["a", "a"],
     wg_link: "",
+    genre:"Team",
   },
   {
     ///value defualt if missing
@@ -300,7 +323,7 @@ const list = [
     imgsrc: [akshat, sonam],
     link_id: ["https://www.instagram.com/akshat.nair22/", ""],
 
-    message: ["", "", "", ""],
+    message: ["In a way all actors are glimpse or much like a traveling circus It will be great fun here I'm feeling very glad to be a part of this..!!!Thank you",""],
     wg_link: "",
   },
   {
@@ -496,19 +519,21 @@ const list = [
       "3. A maximum of 6 min will be allotted for presentation and 2 min for question and answers ",
       "4. The panel members/judges/faculty coordinators will make the final selection on the basis of presentation and innovation.",
     ],
-
+    fcoordinators:['Dr.Vinod Kumar Patel','Dr.Sanddep Raghuwanshi'],
+    fimgsrc:[drvinod,drsandeep],
     name: ["BUSINESS PLAN COMPETITION"],
     title: "BUSINESS PLAN",
     coordinators: [
       "Poorvanshi Gupta ",
       " Palak dwivedi",
-      " Palak dwivedi",
+      " Vaishnavi Rai",
       "Jalaj Gupta ",
+      "Aditya Sharma",
       "Ayush Motihar",
       "Akshat Jain",
     ],
     insta: ["", "", "", "", "", ""],
-    imgsrc: [],
+    imgsrc: [Poorvanshi,palak,vaishnavi,jalag,adityaj,Ayush,AkshatJ],
     link_id: ["", "", "", "", "", "", ""],
 
     message: ["", "", "", "", "", ""],
@@ -517,25 +542,25 @@ const list = [
 
   /////////////////////ROLE MODEL ANALYSIS ////////////////////////////
 
-  {
-    poster: poster,
-    rules: [
-      " 1. The participant is required to express/present his/her concept and thoughts during the live engagement. He or she is not permitted to use recorded video or audio",
-      "2.Participants can’t take the help of others and are not allowed to refer to any materials or electronic gadgets during presentations",
-      "3. The evaluation will be done on the basis of presentation content, innovation,  communication skills and the overall performance ",
-      "4. The panel members/judges/faculty coordinators will make the final selection of candidates for final performance. Their decision will be the final decision",
-    ],
+  // {
+  //   poster: poster,
+  //   rules: [
+  //     " 1. The participant is required to express/present his/her concept and thoughts during the live engagement. He or she is not permitted to use recorded video or audio",
+  //     "2.Participants can’t take the help of others and are not allowed to refer to any materials or electronic gadgets during presentations",
+  //     "3. The evaluation will be done on the basis of presentation content, innovation,  communication skills and the overall performance ",
+  //     "4. The panel members/judges/faculty coordinators will make the final selection of candidates for final performance. Their decision will be the final decision",
+  //   ],
 
-    name: ["BUSINESS PLAN"],
-    title: "BUSINESS PLAN COMPETITION",
-    coordinators: ["Mohit Saraswat ", "Yashika Batra"],
-    insta: ["", ""],
-    imgsrc: [],
-    link_id: ["", ""],
-
-    message: ["", ""],
-    wg_link: "",
-  },
+    // name: ["ROLE MODEL"],
+    // title: "ROLE MODEL ANALYSIS",
+    // coordinators: ["Mohit Saraswat ", "Yashika Batra"],
+    // insta: ["", ""],
+    // imgsrc: [prashantsir,prashantsir],
+    // fimgsrc:[prashantsir],
+    // fcoordinators:["Dr.Prashant Raj Singh ","Dr. Abhilasha Dixit"],
+    // message: ["", ""],
+    // wg_link: "",
+  // },
 
   /////////////////////////////MEMEGRAM///////////////////////
   {
@@ -582,6 +607,7 @@ const list = [
       "Gun Gupta",
       "Ayushi Baijal",
       "Khushi Yadav",
+      "Kajal Jain",
     ],
     insta: [
       "https://www.instagram.com/i_m_raj_45/?utm_medium=copy_link",
@@ -589,15 +615,17 @@ const list = [
       "https://www.instagram.com/gunn_gupta0409/?utm_medium=copy_link",
       "https://instagram.com/ayushibaijal?utm_medium=copy_link",
       "https://www.instagram.com/khussheii/?utm_medium=copy_link",
+      "https://instagram.com/jainmanu14?utm_medium=copy_link"
     ],
-    imgsrc: [Rajdeep,adarsh, Gun, Ayushi, Khushi],
+    imgsrc: [Rajdeep,adarsh, Gun, Ayushi, Khushi,Kajal],
 
   
     message: [
       "If somebody offers you an amazing opportunity but you are not sure you can do it, say yes then learn how to do it later.” in the same way I would thank respected faculty member for  giving  me this opportunities to become a coordinator in such a big event and manage it.",
       "I am so thrilled in taking part of this event. The experience was unbelievable. These events in our Amity University brings anxiety in us and encouragement in all the activities .Thankyou for this learning experience.",
       "I am grateful for this event for giving this sparking opportunity. With this shining opportunity comes confidence and belief of prosperity and growth. Working as a coordinator has given me immense experience. And I'm faithful for my faculties for considering me capable for the position",
-      "t's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.","It's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.",
+      "It's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.","It's an enormous opportunity for me to be the coordinator of such a great event. I feel so considerable for attaining this vast work experience along with my group fellows. Also, I look forward to experiencing such glorious events in future as well.",
+      "Thank you so much for giving me this opportunity, As a coördinator I have learned so much things, It feels great to be the part of this incredible event."
     ],
     wg_link: "",
     genre: "Team",
@@ -664,11 +692,13 @@ const list = [
     ],
     name: ["ROLE MODEL ANALYSIS"],
     title: "ROLE MODEL",
-    coordinators: ["Mohit Saraswat  ", "Yashika Batra "],
+    
+    
+    coordinators: ["Mohit Saraswat ", "Yashika Batra"],
     insta: ["", ""],
-    imgsrc: [],
-    link_id: ["", ""],
-
+    imgsrc: [mohitsarawat,Yashika],
+    fimgsrc:[prashantsir,abhimam],
+    fcoordinators:["Dr.Prashant Raj Singh ","Dr. Abhilasha Dixit"],
     message: ["", ""],
     wg_link: "",
   },
@@ -676,7 +706,7 @@ const list = [
   ///////////////////POSTER COMPETITION//////////////////////////////////////////////////////
 
   {
-    poster: poster,
+    poster: smartcity,
     rules: [
       " 1. Only One Member Can Participate In The Competition ",
       "2. Only One Member Can Participate In The Competition ",
@@ -687,7 +717,7 @@ const list = [
       "7.Students From Any Stream (Arts, Science, Engg., Management Etc.) Can Participate In  This Competition",
       "8.In Case Of Any Discrepancies, The Decision Of Judges Will Be Final And Binding",
     ],
-    name: ["POSTER COMPETITION"],
+    name: ["SMART CITY OF MY DREAM: A POSTER COMPETITION"],
     title: "POSTER DESIGN",
     coordinators: ["Mayank Chahar", "Kuldeep Gupta"],
     insta: ["", ""],
@@ -865,13 +895,13 @@ const list = [
     imgsrc: [ayushman,vibhu],
     link_id: ["", ""],
 
-    message: ["The Poetry Competition is going to be organised by AMITY LAW SCHOOL where we look forward to receive your self composed poetry in Hindi/English language. So come and speak your heart out in the form of your poem.", ""],
+    message: ["The Poetry Competition is going to be organised by AMITY LAW SCHOOL where we look forward to receive your self composed poetry in Hindi/English language. So come and speak your heart out in the form of your poem.", " Small aim is a crime. Keeping this quote of Dr. APJ Abdul Kalam in mind, I am a person with a certain aim working zealously towards it. Reading and writing poetry relax me for the day and prepare for the storms of life. As a law student I believe in the core concepts of equality and fraternity to keep the country united and contribute towards escalating it to the greatest heights."],
     wg_link: "",
   },
 
   //////////////////////////EXTEMPORE///////////////////////
   {
-    poster: poster,
+    poster: extempore_poster,
     rules: [
       " 1. Participant has to speak only in English. ",
       "2 Maximum time limit to think over the topic will be 2 minutes and the maximum time for speech will be 5 minutes.",
@@ -885,16 +915,16 @@ const list = [
     name: ["TOAST-WITH-CONFIDENCE: AN EXTEMPORE COMPETITION"],
     title: "EXTEMPORE",
     coordinators: [
-      "Aditya Khare ",
-      "Aditya Narayan Upadhyay",
+     
+      "Aditya  Upadhyay",
       "Akanksha Srivastava",
       "Harshita Sharma",
     ],
     insta: ["", ""],
-    imgsrc: [],
+    imgsrc: [aditya,akansha,harshita],
     link_id: ["", ""],
 
-    message: ["", ""],
+    message: ["Give urself a chance of becoming a part of this beautiful event and gift urself a new blooming experience", "My experience at amichorma was quite diverse as it contains programs and competitions of each fieldmaking the student prospur his or her own true wings "],
     wg_link: "",
   },
   ///////////////////////////SSB QUIZ/////////////////////////////////
